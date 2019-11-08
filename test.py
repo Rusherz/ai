@@ -1,3 +1,5 @@
+import os.path as path
+
 import spacy
 import random
 import multiprocessing
@@ -23,9 +25,14 @@ session = Session()
 
 annotations = session.query(Annotation).limit(1000).all()
 
+process_count = 4
+
 TRAIN_DATA = []
 
-nlp = spacy.blank('en')  # create blank Language class
+if path.isDir('./model'):
+    nlp = spacy.load('./model')
+else:
+    nlp = spacy.blank('en')  # create blank Language class
 
 optimizer = []
 
@@ -62,34 +69,50 @@ def train_spacy(iterations):
     with nlp.disable_pipes(*other_pipes):  # only train NER
         optimizer = nlp.begin_training()
 
-        pool = multiprocessing.Pool(processes=4)
-        split_iterations = []
+        pool = multiprocessing.Pool(processes=process_count)
+        split_training = []
+        max_length = (len(TRAIN_DATA) / process_count)
 
-        for i in range(4):
-            split_iterations.append((int(iterations / 4), optimizer))
+        for i in range(process_count):
+            start = 0
+            end = max_length
 
-        print(split_iterations)
-        results = pool.map(update_spacy, split_iterations)
+            if i != 0:
+                start = int((i - 1) * max_length)
+                end = int(i * max_length)
+            else:
+                # Got nothing to do here, proper start and end are already set
+                pass
+
+            if (i * max_length) > len(TRAIN_DATA):
+                end = len(TRAIN_DATA)
+
+
+            split_training.append((TRAIN_DATA[start:end]), optimizer)
+
+        print(split_training)
+        results = pool.map(update_spacy, split_training)
         pool.close()
         pool.join()
 
     return nlp
 
 def update_spacy(data):
+    data_set = data[0]
     optimizer = data[1]
 
-    for itn in range(data[0]):
-        print("Statring iteration " + str(itn))
-        random.shuffle(TRAIN_DATA)
-        losses = {}
-        for text, annotations in TRAIN_DATA:
-            nlp.update(
-                [text],  # batch of texts
-                [annotations],  # batch of annotations
-                drop=0.2,  # dropout - make it harder to memorise data
-                sgd=optimizer,  # callable to update weights
-                losses=losses)
-        print(losses)
+    print("Statring iteration " + str(itn))
+    random.shuffle(data_set)
+    losses = {}
+    for text, annotations in data_set:
+        nlp.update(
+            [text],  # batch of texts
+            [annotations],  # batch of annotations
+            drop=0.42,  # dropout - make it harder to memorise data
+            sgd=optimizer,  # callable to update weights
+            losses=losses)
+
+    print(losses)
 
 prdnlp = train_spacy(20)
 
