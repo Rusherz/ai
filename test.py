@@ -44,7 +44,7 @@ else:
     limit = 1000
 
 if args.drop_out is not None:
-    drop_out = float32(args.drop_out)
+    drop_out = float(args.drop_out)
 else:
     drop_out = 0.2
 

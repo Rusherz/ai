@@ -1,2 +1,0 @@
-File, Line, Begin Offset, End Offset, Type
-data.txt, 0, 93, 104, APPLICATION
