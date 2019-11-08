@@ -24,14 +24,18 @@ Session = sessionmaker(bind=Engine)
 # Creating an instance of our session via our factory.
 session = Session()
 
-annotations = session.query(Annotation).limit(10000).all()
-
 parser=argparse.ArgumentParser()
 
 parser.add_argument('--cpus', help='Number of cpus')
 parser.add_argument('--iterations', help='Number of iterations')
+parser.add_argument('--data_points', help='Number of rows to return')
 
 args=parser.parse_args()
+
+if args.data_points is not None:
+    limit = int(args.data_points)
+else:
+    limit = 1000
 
 if args.cpus is not None:
     process_count = int(args.cpus)
@@ -42,6 +46,8 @@ if args.iterations is not None:
     iterations = int(args.iterations)
 else:
     iterations = 1
+
+annotations = session.query(Annotation).limit(limit).all()
 
 TRAIN_DATA = []
 
