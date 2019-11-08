@@ -29,18 +29,24 @@ parser=argparse.ArgumentParser()
 parser.add_argument('--cpus', help='Number of cpus')
 parser.add_argument('--iterations', help='Number of iterations')
 parser.add_argument('--data_points', help='Number of rows to return')
+parser.add_argument('--drop_out', help='Drop out rate, makes it harder for the model to remember')
 
-args=parser.parse_args()
+args = parser.parse_args()
+
+if args.cpus is not None:
+    process_count = int(args.cpus)
+else:
+    process_count = 1
 
 if args.data_points is not None:
     limit = int(args.data_points)
 else:
     limit = 1000
 
-if args.cpus is not None:
-    process_count = int(args.cpus)
+if args.drop_out is not None:
+    drop_out = int(args.drop_out)
 else:
-    process_count = 1
+    drop_out = 0.2
 
 if args.iterations is not None:
     iterations = int(args.iterations)
@@ -59,12 +65,13 @@ else:
 optimizer = []
 
 for annotation in annotations:
+    document = 'DOI: ' + annotation.document
     TRAIN_DATA.append((
-        annotation.document, {
+        document, {
             'entities': [
                 (
-                    annotation.start,
-                    annotation.end,
+                    int(annotation.start) + 5,
+                    int(annotation.end) + 5,
                     annotation.entity
                 )
             ]
@@ -79,6 +86,8 @@ def train_spacy():
     if 'ner' not in nlp.pipe_names:
         ner = nlp.create_pipe('ner')
         nlp.add_pipe(ner, last=True)
+    else:
+        ner = nlp.get_pipe('ner')
 
 
     # add labels
@@ -131,7 +140,7 @@ def update_spacy(data):
         nlp.update(
             [text],  # batch of texts
             [annotations],  # batch of annotations
-            drop=0.42,  # dropout - make it harder to memorise data
+            drop=drop_out,  # dropout - make it harder to memorise data
             sgd=optimizer,  # callable to update weights
             losses=losses)
 
