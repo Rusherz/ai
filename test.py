@@ -55,6 +55,14 @@ else:
 
 annotations = session.query(Annotation).limit(limit).all()
 
+f = open("doi.txt", "a")
+
+for annotation in annotations:
+    f.write(annotation.annotation + '\n')
+
+f.close()
+exit()
+
 TRAIN_DATA = []
 
 if os.path.isdir('./model'):
