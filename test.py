@@ -1,4 +1,5 @@
-import os.path as path
+import os
+import argparse, sys
 
 import spacy
 import random
@@ -23,13 +24,28 @@ Session = sessionmaker(bind=Engine)
 # Creating an instance of our session via our factory.
 session = Session()
 
-annotations = session.query(Annotation).limit(1000).all()
+annotations = session.query(Annotation).limit(10000).all()
 
-process_count = 4
+parser=argparse.ArgumentParser()
+
+parser.add_argument('--cpus', help='Number of cpus')
+parser.add_argument('--iterations', help='Number of iterations')
+
+args=parser.parse_args()
+
+if args.cpus is not None:
+    process_count = int(args.cpus)
+else:
+    process_count = 1
+
+if args.iterations is not None:
+    iterations = int(args.iterations)
+else:
+    iterations = 1
 
 TRAIN_DATA = []
 
-if path.isDir('./model'):
+if os.path.isdir('./model'):
     nlp = spacy.load('./model')
 else:
     nlp = spacy.blank('en')  # create blank Language class
@@ -49,7 +65,7 @@ for annotation in annotations:
         }
     ))
 
-def train_spacy(iterations):
+def train_spacy():
     global nlp
 
     # create the built-in pipeline components and add them to the pipeline
@@ -69,31 +85,32 @@ def train_spacy(iterations):
     with nlp.disable_pipes(*other_pipes):  # only train NER
         optimizer = nlp.begin_training()
 
-        pool = multiprocessing.Pool(processes=process_count)
-        split_training = []
-        max_length = (len(TRAIN_DATA) / process_count)
+        for iteration in range(iterations):
+            pool = multiprocessing.Pool(processes=process_count)
+            split_training = []
+            max_length = (len(TRAIN_DATA) / process_count)
 
-        for i in range(process_count):
-            start = 0
-            end = max_length
+            for i in range(process_count):
+                start = 0
+                end = max_length
 
-            if i != 0:
-                start = int((i - 1) * max_length)
-                end = int(i * max_length)
-            else:
-                # Got nothing to do here, proper start and end are already set
-                pass
+                if i != 0:
+                    start = int((i - 1) * max_length)
+                    end = int(i * max_length)
+                else:
+                    # Got nothing to do here, proper start and end are already set
+                    pass
 
-            if (i * max_length) > len(TRAIN_DATA):
-                end = len(TRAIN_DATA)
+                if (i * max_length) > len(TRAIN_DATA):
+                    end = len(TRAIN_DATA)
 
+                print(str(start), str(end))
+                split_training.append((TRAIN_DATA[int(start):int(end)], optimizer, iteration))
 
-            split_training.append((TRAIN_DATA[start:end]), optimizer)
-
-        print(split_training)
-        results = pool.map(update_spacy, split_training)
-        pool.close()
-        pool.join()
+            print('iteration: ', str(iteration))
+            results = pool.map(update_spacy, split_training)
+            pool.close()
+            pool.join()
 
     return nlp
 
@@ -101,7 +118,7 @@ def update_spacy(data):
     data_set = data[0]
     optimizer = data[1]
 
-    print("Statring iteration " + str(itn))
+    print("Statring iteration " + str(data[2]))
     random.shuffle(data_set)
     losses = {}
     for text, annotations in data_set:
@@ -114,11 +131,10 @@ def update_spacy(data):
 
     print(losses)
 
-prdnlp = train_spacy(20)
+prdnlp = train_spacy()
 
 # Save our trained Model
-modelfile = input("Enter your Model Name: ")
-prdnlp.to_disk(modelfile)
+prdnlp.to_disk('./model')
 
 #Test your text
 test_text = input("Enter your testing text: ")
