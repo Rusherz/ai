@@ -108,3 +108,5 @@ y_val = y_val.reshape(y_val.shape[0], y_val.shape[1], 1)
 
 history = model.fit(np.array(X_tr), y_tr, validation_data=(np.array(X_val), y_val),
                     batch_size=batch_size, epochs=5, verbose=1)
+
+model.save('./model/model.h5')
