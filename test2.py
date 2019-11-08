@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 plt.style.use("ggplot")
 
 data = pd.read_csv("ner_dataset.csv", encoding="latin1")
+data = data[:10000]
 data = data.fillna(method="ffill")
 
 words = list(set(data["Word"].values))
@@ -107,6 +108,11 @@ y_tr = y_tr.reshape(y_tr.shape[0], y_tr.shape[1], 1)
 y_val = y_val.reshape(y_val.shape[0], y_val.shape[1], 1)
 
 history = model.fit(np.array(X_tr), y_tr, validation_data=(np.array(X_val), y_val),
-                    batch_size=batch_size, epochs=5, verbose=1)
+                    batch_size=batch_size, epochs=1, verbose=1)
 
 model.save('./model/model.h5')
+
+sentence = "In the midst of all that is eternal, 10.2196/12345 was here to steer us though the upheaval of civil 10.1564/123.12333-12313Accc unrest."
+sentence = sentence.split()
+
+results = model.predict(np.array(sentence))[0]
