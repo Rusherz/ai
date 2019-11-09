@@ -89,7 +89,7 @@ from keras.models import Model, Input
 from keras.layers.merge import add
 from keras.layers import LSTM, Embedding, Dense, TimeDistributed, Dropout, Bidirectional, Lambda
 
-input_text = Input(shape=(max_len,), dtype=tf.string)
+input_text = Input(shape=(max_len,))
 embedding = Lambda(ElmoEmbedding, output_shape=(None, None, 1024))(input_text)
 x = Bidirectional(LSTM(units=512, return_sequences=True,
                        recurrent_dropout=0.2, dropout=0.2))(embedding)
