@@ -44,7 +44,7 @@ class BiLSTMCRF(object):
                  word_lstm_size=100,
                  char_lstm_size=25,
                  fc_dim=100,
-                 dropout=0.5,
+                 dropout=0.2,
                  embeddings=None,
                  use_char=True,
                  use_crf=True):
@@ -136,7 +136,7 @@ class ELModel(object):
                  word_lstm_size=100,
                  char_lstm_size=25,
                  fc_dim=100,
-                 dropout=0.5,
+                 dropout=0.2,
                  embeddings=None):
         """Build a Bi-LSTM CRF model.
 
