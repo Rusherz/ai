@@ -1,4 +1,5 @@
 import anago
+import json
 
 from anago.utils import load_data_and_labels
 
@@ -18,6 +19,6 @@ text = re.sub('<[^<]+>', '', open('./168b2c68efa3c1d0c224ed2af8d845df.xml').read
 entities = model.analyze(text)
 print(entities)
 f = open('./results.json', 'w')
-f.writelines(str(entities))
+f.writelines(json.dumps(entities))
 f.close()
 
