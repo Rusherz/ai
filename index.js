@@ -1,14 +1,30 @@
 const fs = require('fs');
 
 
-let content = fs.readFileSync('./results.json', 'utf8');
+// let content = fs.readFileSync('./results.json', 'utf8');
+//
+// //content = content.replace(/'/g, '"');
+//
+// content = JSON.parse(content);
+//
+// let dois = content.entities.filter(entity => {
+//     return entity.type == ' DOI'
+// });
+//
+// console.log(dois)
 
-//content = content.replace(/'/g, '"');
+let dois = fs.readFileSync('./doi.txt', 'utf8');
+dois = dois.split("\n");
 
-content = JSON.parse(content);
+let newDois = [];
 
-let dois = content.entities.filter(entity => {
-    return entity.type == ' DOI'
-});
+let count = parseInt(dois.length / 10) + 1;
 
-console.log(dois)
+for (let i = 0; i < count; i++) {
+    for (let o = 0; o < 10; o++) {
+        newDois.push(dois[o + (10 * i)]);
+    }
+    newDois.push("\n");
+}
+
+fs.writeFileSync('./dois.txt', newDois.join('\n'));
