@@ -14,7 +14,7 @@ const fs = require('fs');
 // console.log(dois)
 
 let dois = fs.readFileSync('./doi.txt', 'utf8');
-dois = dois.split("\r\n");
+dois = dois.split("\n");
 
 let newDois = [];
 
