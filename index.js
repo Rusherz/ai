@@ -25,7 +25,7 @@ for (let i = 0; i < count; i++) {
         newDois.push(dois[o + (10 * i)]);
     }
     newDois.push(".\tO");
-    newDois.push("\n");
+    newDois.push("\r\n");
 }
 
 fs.writeFileSync('./dois.txt', newDois.join('\n'));
