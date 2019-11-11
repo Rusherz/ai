@@ -24,6 +24,7 @@ for (let i = 0; i < count; i++) {
     for (let o = 0; o < 10; o++) {
         newDois.push(dois[o + (10 * i)]);
     }
+    newDois.push(".\tO");
     newDois.push("\n");
 }
 
