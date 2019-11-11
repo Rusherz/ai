@@ -1,0 +1,3434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.0 20040830//EN" "http://dtd.nlm.nih.gov/publishing/2.0/journalpublishing.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="review-article" dtd-version="2.0">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">JMIR</journal-id>
+      <journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id>
+      <journal-title>Journal of Medical Internet Research</journal-title>
+      <issn pub-type="epub">1438-8871</issn>
+      <publisher>
+        <publisher-name>JMIR Publications</publisher-name>
+        <publisher-loc>Toronto, Canada</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="publisher-id">v21i10e13263</article-id>
+      <article-id pub-id-type="pmid">31593543</article-id>
+      <article-id pub-id-type="doi">10.2196/13263</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Review</subject>
+        </subj-group>
+        <subj-group subj-group-type="article-type">
+          <subject>Review</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Barriers to the Use of Mobile Health in Improving Health Outcomes in Developing Countries: Systematic Review</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Moorhead</surname>
+            <given-names>Anne</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="reviewer">
+          <name>
+            <surname>Shah</surname>
+            <given-names>Syed</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="reviewer">
+          <name>
+            <surname>Alexander</surname>
+            <given-names>Greg</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="reviewer">
+          <name>
+            <surname>Claudine Mbemba</surname>
+            <given-names>Gisèle</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="reviewer">
+          <name>
+            <surname>Seidling</surname>
+            <given-names>Hanna</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib id="contrib1" contrib-type="author" corresp="yes" equal-contrib="yes">
+          <name name-style="western">
+            <surname>Kruse</surname>
+            <given-names>Clemens</given-names>
+          </name>
+          <degrees>MHA, MSIT, MBA, PhD</degrees>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <address>
+            <institution>School of Health Administration</institution>
+            <institution>Texas State University</institution>
+            <addr-line>601 University Dr</addr-line>
+            <addr-line>Encino Hall 250</addr-line>
+            <addr-line>San Marcos, TX, 78666</addr-line>
+            <country>United States</country>
+            <phone>1 210 355 4742</phone>
+            <fax>1 512 245 8712</fax>
+            <email>scottkruse@txstate.edu</email>
+          </address>
+          <ext-link ext-link-type="orcid">http://orcid.org/0000-0002-7636-1086</ext-link>
+        </contrib>
+        <contrib id="contrib2" contrib-type="author">
+          <name name-style="western">
+            <surname>Betancourt</surname>
+            <given-names>Jose</given-names>
+          </name>
+          <degrees>DPH</degrees>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <ext-link ext-link-type="orcid">http://orcid.org/0000-0003-0146-8476</ext-link>
+        </contrib>
+        <contrib id="contrib3" contrib-type="author">
+          <name name-style="western">
+            <surname>Ortiz</surname>
+            <given-names>Stephanie</given-names>
+          </name>
+          <degrees>BHA</degrees>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <ext-link ext-link-type="orcid">http://orcid.org/0000-0001-5290-7403</ext-link>
+        </contrib>
+        <contrib id="contrib4" contrib-type="author">
+          <name name-style="western">
+            <surname>Valdes Luna</surname>
+            <given-names>Susana Melissa</given-names>
+          </name>
+          <degrees>BA, MHA</degrees>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <ext-link ext-link-type="orcid">http://orcid.org/0000-0002-8713-4380</ext-link>
+        </contrib>
+        <contrib id="contrib5" contrib-type="author">
+          <name name-style="western">
+            <surname>Bamrah</surname>
+            <given-names>Inderdeep Kaur</given-names>
+          </name>
+          <degrees>BA, MHA</degrees>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <ext-link ext-link-type="orcid">http://orcid.org/0000-0001-6435-1895</ext-link>
+        </contrib>
+        <contrib id="contrib6" contrib-type="author">
+          <name name-style="western">
+            <surname>Segovia</surname>
+            <given-names>Narce</given-names>
+          </name>
+          <degrees>BA, MHA</degrees>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <ext-link ext-link-type="orcid">http://orcid.org/0000-0002-1409-535X</ext-link>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <institution>School of Health Administration</institution>
+        <institution>Texas State University</institution>
+        <addr-line>San Marcos, TX</addr-line>
+        <country>United States</country>
+      </aff>
+      <author-notes>
+        <corresp>Corresponding Author: Clemens Kruse <email>scottkruse@txstate.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>10</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>9</day>
+        <month>10</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>10</issue>
+      <elocation-id>e13263</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>31</day>
+          <month>12</month>
+          <year>2018</year>
+        </date>
+        <date date-type="rev-request">
+          <day>10</day>
+          <month>3</month>
+          <year>2019</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>15</day>
+          <month>4</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>6</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <copyright-statement>©Clemens Scott Kruse, Jose Betancourt, Stephanie Ortiz, Susana Melissa Valdes Luna, Inderdeep Kaur Bamrah, Narce Segovia. Originally published in the Journal of Medical Internet Research (http://www.jmir.org), 09.10.2019.</copyright-statement>
+      <copyright-year>2019</copyright-year>
+      <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+        <p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on http://www.jmir.org/, as well as this copyright and license information must be included.</p>
+      </license>
+      <self-uri xlink:href="https://www.jmir.org/2019/10/e13263" xlink:type="simple"/>
+      <abstract>
+        <sec sec-type="Background">
+          <title>Background</title>
+          <p>The use of mobile health (mHealth) technologies to improve population-level health outcomes around the world has surged in the last decade. Research supports the use of mHealth apps to improve health outcomes such as maternal and infant mortality, treatment adherence, immunization rates, and prevention of communicable diseases. However, developing countries face significant barriers to successfully implement, sustain, and expand mHealth initiatives to improve the health of vulnerable populations.</p>
+        </sec>
+        <sec sec-type="Objective">
+          <title>Objective</title>
+          <p>We aimed to identify and synthesize barriers to the use of mHealth technologies such as text messaging (short message service [SMS]), calls, and apps to change and, where possible, improve the health behaviors and health outcomes of populations in developing countries.</p>
+        </sec>
+        <sec sec-type="Methods">
+          <title>Methods</title>
+          <p>We followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses checklist. Deriving search criteria from the review’s primary objective, we searched PubMed and CINAHL using an exhaustive terms search (eg, mHealth, text messaging, and developing countries, with their respective Medical Subject Headings) limited by publication date, English language, and full text. At least two authors thoroughly reviewed each article’s abstract to verify the articles were germane to our objective. We then applied filters and conducted consensus meetings to confirm that the articles met the study criteria.</p>
+        </sec>
+        <sec sec-type="Results">
+          <title>Results</title>
+          <p>Review of 2224 studies resulted in a final group of 30 articles for analysis. mHealth initiatives were used extensively worldwide for applications such as maternal health, prenatal care, infant care, HIV/AIDS prevention, treatment adherence, cardiovascular disease, diabetes, and health education. Studies were conducted in several developing countries in Africa, Asia, and Latin America. From each article, we recorded the specific health outcome that was improved, mHealth technology used, and barriers to the successful implementation of the intervention in a developing country. The most prominent health outcomes improved with mHealth were infectious diseases and maternal health, accounting for a combined 20/30 (67%) of the total studies in the analysis. The most frequent mHealth technology used was SMS, accounting for 18/30 (60%) of the studies. We identified 73 individual barriers and grouped them into 14 main categories. The top 3 barrier categories were infrastructure, lack of equipment, and technology gap, which together accounted for 28 individual barriers.</p>
+        </sec>
+        <sec sec-type="Conclusions">
+          <title>Conclusions</title>
+          <p>This systematic review shed light on the most prominent health outcomes that can be improved using mHealth technology interventions in developing countries. The barriers identified will provide leaders of future intervention projects a solid foundation for their design, thus increasing the chances for long-term success. We suggest that, to overcome the top three barriers, project leaders who wish to implement mHealth interventions must establish partnerships with local governments and nongovernmental organizations to secure funding, leadership, and the required infrastructure.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <kwd>health outcomes</kwd>
+        <kwd>telemedicine</kwd>
+        <kwd>text messaging</kwd>
+        <kwd>communication barriers</kwd>
+        <kwd>developing countries</kwd>
+        <kwd>treatment outcome</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="introduction">
+      <title>Introduction</title>
+      <sec>
+        <title>Background</title>
+        <p>Mobile devices are a cheap source of technology for addressing health care needs in developing countries. With the expansion of technology, mobile health (mHealth) is a tool that can be used to exchange health information for improving health outcomes through short message service (SMS) text messaging, mobile apps, and calls [<xref ref-type="bibr" rid="ref1">1</xref>]. mHealth offers simplicity, efficiency, and effectiveness to patients due to its ability of rapid communication. mHealth intervention is a useful tool due to the ability to be accessible at the user’s convenience. Mobile apps can be used to assess and measure the impact of a specific disease or may actually prevent a specific illness from occurring. A simple text can communicate, store, retrieve, and remind patients of their health status or deliver messages that promote healthy behaviors and choices. It is an inexpensive tool that can reduce the disparities of health in developing countries. Health care professionals now use smartphones or tablet computers to accomplish tasks for which they once used to need a pager or a personal digital assistant [<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref>].</p>
+      </sec>
+      <sec>
+        <title>Definition of Key Terms</title>
+        <p>The term barrier is defined as “something that separates one thing from another” [<xref ref-type="bibr" rid="ref4">4</xref>]. It is anything that prevents a certain goal from being achieved [<xref ref-type="bibr" rid="ref4">4</xref>]. The second term, mHealth, is defined as a “medical and public health practice supported by mobile devices, such as mobile phones, patient monitoring devices, personal digital assistants, and other wireless devices” [<xref ref-type="bibr" rid="ref5">5</xref>]. A developing country is a country that has a slow rate of industrialization, low per capita income, high unemployment, high poverty rate, and low standard of living [<xref ref-type="bibr" rid="ref6">6</xref>]. Developing countries usually rely on developed countries for their economic growth and prosperity [<xref ref-type="bibr" rid="ref6">6</xref>].</p>
+      </sec>
+      <sec>
+        <title>Rationale for the Review</title>
+        <p>mHealth is a tool that has had a positive impact on developed countries and has contributed to improving the health outcomes of populations around the world [<xref ref-type="bibr" rid="ref7">7</xref>]. Specifically, researchers have focused on SMS in health care, and leading health organizations recommend its use [<xref ref-type="bibr" rid="ref8">8</xref>]. Around the globe, mobile-cellular subscriptions will soon match the number of the population worldwide and are expected to continue to increase [<xref ref-type="bibr" rid="ref9">9</xref>]. This is especially true in the developing world, where the market has not yet reached saturation [<xref ref-type="bibr" rid="ref9">9</xref>]. mHealth has closed the gap in the digital divide in low-resource areas [<xref ref-type="bibr" rid="ref10">10</xref>]. In the developing world, the World Health Organization reported a shortage of health care workers in 57 countries, resulting in a clear opportunity for innovative and effective solutions to help improve the health outcomes of their most vulnerable populations [<xref ref-type="bibr" rid="ref11">11</xref>]. Mobile technology devices such as tablets, phones, computers, and tracking devices can be used to support and enhance health care in developing countries. The use of text messaging to promote healthy behaviors and healthy choices can be considered a groundbreaking component in improving population and community health.</p>
+      </sec>
+      <sec>
+        <title>Context of Other Evidence</title>
+        <p>Many studies have been carried out to determine the efficiency of mHealth in developing countries. A literature review of SMS-supported interventions for surveillance, management, treatment compliance, and prevention of noncommunicable diseases in India, South Africa, and Kenya found mobile phones to be well accepted by the population; however, high-quality intervention designed studies were needed [<xref ref-type="bibr" rid="ref12">12</xref>]. In Nigeria, mobile device questionnaires were used to understand the perceptions of women at high risk of maternal death; although over 90% of women owned mobile phones, innovative methods were lacking to strengthen the delivery of maternal health information to those hard-to-reach populations [<xref ref-type="bibr" rid="ref13">13</xref>]. In Zambia, SMS was found to have the potential to diagnose HIV early in infants by accelerating the delivery of results of blood sample testing to clinics, but the identification of lack of mobile phone ownership during the design of the study was found to hinder the success of the intervention [<xref ref-type="bibr" rid="ref14">14</xref>].</p>
+        <p>In China, a smartphone app and text messaging were used to improve vaccination coverage among children, as well as the consumption of infant micronutrient powder packets [<xref ref-type="bibr" rid="ref15">15</xref>]. Caregivers’ suspicious beliefs and lack of acceptability were the major causes negatively affecting the success of the mHealth intervention [<xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref>]. In remote areas of Vietnam, the mMom app was used to improve pregnant women’s maternal and infant health knowledge. An anticipated challenge was the high level of integration among local partners that required constant communication and engagement for coordination of the mHealth initiative [<xref ref-type="bibr" rid="ref3">3</xref>].</p>
+        <p>An exploratory qualitative study conducted in Latin America and the Caribbean sought to further understand the needs of underserved populations and their exposure to public health interventions that used information and communications technologies to highlight the scarcity of such tools to reduce inequities. The greatest challenges were the lack of sustainability for financial and technical resources due to the unreliability of sustained external funding, poor intervention design caused by the resistance of precedents, and lack of technological literacy among participants unfamiliar with the use of information and communications technologies [<xref ref-type="bibr" rid="ref18">18</xref>].</p>
+        <p>A study designed for primary prevention of hypertension in Argentina, Guatemala, and Peru found challenges that consisted of the unacceptability of mHealth innovations by the targeted communities, and emphasized the need to tailor the interventions to potential literacy challenges attributed to lack of understanding of cultural context [<xref ref-type="bibr" rid="ref19">19</xref>]. In Brazil, a mobile phone–based intervention to promote prenatal care practices found that only one-fifth of women eligible for the study were actually interested in participating [<xref ref-type="bibr" rid="ref19">19</xref>]. In Tajikistan, Bolivia, and Palestine, a behavioral change intervention was deployed using text messages to bring awareness of using contraceptives among the young to prevent unwanted pregnancies [<xref ref-type="bibr" rid="ref20">20</xref>]. Negative attitudes toward and beliefs about contraception, including the cultural stigma of having sex before marriage, being judged, and confidentiality concerns, limited participant discussion of contraception with providers [<xref ref-type="bibr" rid="ref21">21</xref>]. In urban and rural areas of Guatemala, text messages were used to remind parents of infants to attend vaccination visits and decrease unnecessary morbidity [<xref ref-type="bibr" rid="ref22">22</xref>]. This study concluded that client preference for delivery modalities such as a combination of text messaging and phone calls should have been considered to reach the maximum amount of the targeted population [<xref ref-type="bibr" rid="ref22">22</xref>].</p>
+      </sec>
+      <sec>
+        <title>Objective</title>
+        <p>While other studies have focused on the potential benefits of mHealth in developing countries, our literature review sought to define the barriers that impede the successful application of mHealth (eg, SMS, cell phones, apps) interventions that aim to improve health outcomes of a population in diverse developing countries around the world. This knowledge may serve as a useful tool for project leaders to consider when planning or designing future mHealth interventions to strengthen the chances of long-term, sustainable success in the community. To analyze the use of mHealth in developing countries, more studies need to examine the different types of barriers these countries face. We conducted this literature review to determine what type of mHealth initiatives are more popular in developing countries, as well as the outcomes and barriers identified by the respective article authors. We aimed to provide a clearer understanding of what initiatives have the best supporting evidence of improving health outcomes by using mHealth approaches and of the resources developing countries require to foster the long-term and sustainable success of these projects.</p>
+      </sec>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Protocol Registration and Eligibility Criteria</title>
+        <p>This review followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines (<xref ref-type="supplementary-material" rid="app1">Multimedia Appendix 1</xref>) [<xref ref-type="bibr" rid="ref23">23</xref>]. We did not register the review. The main objective was to identify and synthesize the barriers to the use of mHealth to improve the health outcomes in developing countries. Articles were eligible for review if they met criteria such as having a health outcome and involving the use of mHealth technology in a developing country. We analyzed articles only if (1) the full-text article was available, (2) the article related to humans, (3) the article was published between 2008 and 2018, and (4) the article was written in English. Exclusion criteria for this review were systematic reviews, articles unrelated to the objective of the review, and no direct health outcome being involved. We did not consider for this review any studies that were in progress. Finally, we removed duplicate articles from the literature matrix.</p>
+      </sec>
+      <sec>
+        <title>Information Sources and Search</title>
+        <p>In addition to reporting this review in accordance with the PRISMA guidelines, we conducted it using techniques of the Assessment of Multiple Systematic Reviews [<xref ref-type="bibr" rid="ref24">24</xref>]. We searched PubMed and CINAHL with an exhaustive search string comprising Medical Subject Headings (MeSH), due to their widespread availability, and Boolean operators. <xref ref-type="supplementary-material" rid="app2">Multimedia Appendix 2</xref> provides a detailed list of MeSH terms. We conducted searches for this literature review in September 2018.</p>
+      </sec>
+      <sec>
+        <title>Risk of Bias in Individual Studies</title>
+        <p>Our methods did not enable randomization, so to control for selection bias, we conducted the search using exhaustive MeSH terms, which are widely used in databases used for literature research. To avoid influencing each other’s individual opinions, each researcher recorded his or her findings independently. We calculated a kappa statistic to measure interrater reliability, which refers to the agreement and consistency of article selection. The kappa was .78, which reflects a moderate agreement between the reviewers [<xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref26">26</xref>].</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Study Selection, Data Collection Process, and Data Items</title>
+        <p><xref rid="figure1" ref-type="fig">Figure 1</xref> illustrates the search and selection process in each database. The initial search in PubMed resulted in 535 articles, and in CINAHL the search produced 1689 articles. The total number of articles obtained from both search engines was 2224. Then, after applying limiters, we narrowed the PubMed results down to 144 articles and CINAHL to 145 articles. All 289 abstracts were screened by at least two reviewers. Reviewers screened abstracts recording their individual observations and recommendations to either include or exclude each article. A consensus meeting was then held to arrive at an agreement on the selected articles. If there was a disagreement, a third author’s vote was required to reach consensus. We produced a list of 58 abstracts germane to the objective of the review. We distributed these articles among our team in a manner that ensured each article was analyzed by at least two reviewers. A second consensus meeting arrived at a final group of articles for analysis of 30. The other articles were eliminated after a full reading.</p>
+        <fig id="figure1" position="float">
+          <caption>
+            <p>Preferred Reporting Items for Systematic Reviews and Meta-Analyses flow diagram of the literature search and selection process.</p>
+          </caption>
+          <graphic xlink:href="jmir_v21i10e13263_fig1.png" alt-version="no" mimetype="image" position="float" xlink:type="simple"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Study Selection and Characteristics</title>
+        <p>Between September and November 2018, we reviewed the 30 articles germane to this review’s objective of defining the barriers to implementing mHealth interventions in developing countries. Results included mHealth initiatives covering health outcomes such as prenatal care, infectious diseases, medication adherence, appointment reminders, and chronic diseases education. The articles in the group for analysis reported interventions piloted across several developing countries around the world. We divided the 30 articles among the reviewers for analysis by at least two reviewers. We held group consensus meetings to facilitate discussion of individual barriers identified in the articles.</p>
+      </sec>
+      <sec>
+        <title>Results of Individual Studies and Synthesis of Results</title>
+        <p>We analyzed the articles to determine the health outcomes most commonly improved with mHealth interventions, the most used mHealth technology, and, most importantly, the barriers that hindered the adoption or impact of the mHealth interventions. We break down each of the findings to provide a comprehensive vision for future leaders who wish to implement mHealth interventions in developing countries.</p>
+        <p>Among the articles analyzed, maternal health was the most prevalent health outcome with a frequency of 9 out of the 30 articles (30%) [<xref ref-type="bibr" rid="ref27">27</xref>-<xref ref-type="bibr" rid="ref35">35</xref>]. Infectious diseases and chronic diseases were the second most prevalent health outcomes, with a frequency of each of 8 of 30 (27%) articles [<xref ref-type="bibr" rid="ref36">36</xref>,<xref ref-type="bibr" rid="ref39">39</xref>-<xref ref-type="bibr" rid="ref44">44</xref>,<xref ref-type="bibr" rid="ref49">49</xref>-<xref ref-type="bibr" rid="ref51">51</xref>]. The third most prevalent outcome was preventive health, occurring in 5 of 30 (17%) articles [<xref ref-type="bibr" rid="ref22">22</xref>,<xref ref-type="bibr" rid="ref52">52</xref>-<xref ref-type="bibr" rid="ref55">55</xref>].</p>
+        <p>The mHealth interventions identified in the literature were SMS only; SMS or phone calls and voice messages, or both SMS and phone call and voice messages; SMS phone app; multimedia messages for diagnosis; and a combination of SMS, smartphone app, and cellphones. We identified SMS in 28 of the 30 articles we analyzed (93%). The use of SMS only was mentioned in 16 of 26 interventions (62%) [<xref ref-type="bibr" rid="ref28">28</xref>-<xref ref-type="bibr" rid="ref31">31</xref>,<xref ref-type="bibr" rid="ref35">35</xref>,<xref ref-type="bibr" rid="ref37">37</xref>,<xref ref-type="bibr" rid="ref38">38</xref>,<xref ref-type="bibr" rid="ref40">40</xref>-<xref ref-type="bibr" rid="ref43">43</xref>,<xref ref-type="bibr" rid="ref45">45</xref>-<xref ref-type="bibr" rid="ref47">47</xref>,<xref ref-type="bibr" rid="ref50">50</xref>,<xref ref-type="bibr" rid="ref52">52</xref>]. SMS with or without phone calls and voice messages was the second highest with a frequency of 4 of 26 interventions (15%) [<xref ref-type="bibr" rid="ref22">22</xref>,<xref ref-type="bibr" rid="ref32">32</xref>,<xref ref-type="bibr" rid="ref39">39</xref>,<xref ref-type="bibr" rid="ref53">53</xref>]. Smartphone with the use of apps was the third most commonly mHealth used with a frequency of 3 of 26 interventions (12%) [<xref ref-type="bibr" rid="ref34">34</xref>,<xref ref-type="bibr" rid="ref36">36</xref>,<xref ref-type="bibr" rid="ref55">55</xref>]. Interventions using multimedia messages had a frequency of 2 of 26 (4%) [<xref ref-type="bibr" rid="ref27">27</xref>,<xref ref-type="bibr" rid="ref54">54</xref>]. Finally, the combination of SMS, smartphone app, and cell calls occurred in only 1 of 26 (4%) interventions [<xref ref-type="bibr" rid="ref33">33</xref>].</p>
+        <p>We classified the 73 barriers into 14 categories identified in the 30 articles. The categories are immature (or lack of) infrastructure (10/73, 14%), lack of equipment (9/73, 12%), technology gap (9/73, 12%), human resource issues (7/73, 10%), time or work conflict (7/73, 10%), cost (6/73, 8%), lack of public policy (8/73, 8%), literacy (4/73, 5%), language barriers (4/73, 5%), psychosocial issues (4/73, 5%) lack of training (3/73, 4%), concerns about privacy and confidentiality of information (2/73, 3%), lack of efficacy (1/73, 1%), and exposure of program (1/73, 1%).</p>
+        <p><xref rid="figure2" ref-type="fig">Figure 2</xref> provides a geographic distribution of the studies in the analyzed studies. Africa accounted for 16 of 30 (53%) articles, Asia for 10 of 30 (33%) articles, and South America for 3 of 30 (10%) articles; 1 article studied both Africa and South America (3%).</p>
+        <p><xref ref-type="table" rid="table1">Table 1</xref> summarizes the following details of each article analyzed: study design, sample size, technological intervention, health outcome, barriers identified, and world region.</p>
+        <fig id="figure2" position="float">
+          <caption>
+            <p>Location of studies of mobile health technologies to improve preventive health outcomes in developing countries, by region.</p>
+          </caption>
+          <graphic xlink:href="jmir_v21i10e13263_fig2.png" alt-version="no" mimetype="image" position="float" xlink:type="simple"/>
+        </fig>
+        <table-wrap position="float" id="table1">
+          <label>Table 1</label>
+          <caption>
+            <p>Summary of results.</p>
+          </caption>
+          <table width="1000" cellpadding="5" cellspacing="0" border="1" rules="groups" frame="hsides">
+            <col width="150"/>
+            <col width="200"/>
+            <col width="170"/>
+            <col width="180"/>
+            <col width="210"/>
+            <col width="90"/>
+            <thead>
+              <tr valign="top">
+                <td>First author, date, reference</td>
+                <td>Study design and sample size</td>
+                <td>mHealth intervention category</td>
+                <td>Health outcome category</td>
+                <td>Barriers identified</td>
+                <td>Continent</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td>Ginsburg, 2015 [<xref ref-type="bibr" rid="ref36">36</xref>]</td>
+                <td>Open data-kit survey (design-stage evaluation activity)</td>
+                <td>Smartphone app</td>
+                <td>Infectious disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Technology gap</p>
+                    </list-item>
+                    <list-item>
+                      <p>Language barrier</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Nhavoto, 2017 [<xref ref-type="bibr" rid="ref37">37</xref>]</td>
+                <td>RCT<sup>a</sup> and interviews (tuberculosis n=69, HIV n=72)</td>
+                <td>SMS<sup>b</sup> only</td>
+                <td>Infectious disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Privacy concerns</p>
+                    </list-item>
+                    <list-item>
+                      <p>Literacy</p>
+                    </list-item>
+                    <list-item>
+                      <p>Language barrier</p>
+                    </list-item>
+                    <list-item>
+                      <p>Equipment</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Bediang, 2014 [<xref ref-type="bibr" rid="ref38">38</xref>]</td>
+                <td>Blinded RCT (intervention n=104, control n=104)</td>
+                <td>SMS only</td>
+                <td>Infectious disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Infrastructure</p>
+                    </list-item>
+                    <list-item>
+                      <p>Cost</p>
+                    </list-item>
+                    <list-item>
+                      <p>Policy</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Bigna, 2013 [<xref ref-type="bibr" rid="ref39">39</xref>]</td>
+                <td>RCT (n=224 divided into 4 groups)</td>
+                <td>SMS with or without phone calls and voice mail</td>
+                <td>Infectious disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Equipment</p>
+                    </list-item>
+                    <list-item>
+                      <p>Language barrier</p>
+                    </list-item>
+                    <list-item>
+                      <p>Policy</p>
+                    </list-item>
+                    <list-item>
+                      <p>Privacy concerns</p>
+                    </list-item>
+                    <list-item>
+                      <p>Infrastructure</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Medhanyie, 2015 [<xref ref-type="bibr" rid="ref27">27</xref>]</td>
+                <td>Interviews, 2893 electronic health records of 1122 women</td>
+                <td>Multimedia messages for diagnosis</td>
+                <td>Maternal health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Time or work conflict</p>
+                    </list-item>
+                    <list-item>
+                      <p>Human resources issues</p>
+                    </list-item>
+                    <list-item>
+                      <p>Time or work conflict </p>
+                    </list-item>
+                    <list-item>
+                      <p>Time or work conflict</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Rokicki, 2017 [<xref ref-type="bibr" rid="ref28">28</xref>]</td>
+                <td>Cluster RCT (n=756)</td>
+                <td>SMS only</td>
+                <td>Maternal health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Time or work conflict</p>
+                    </list-item>
+                    <list-item>
+                      <p>Equipment</p>
+                    </list-item>
+                    <list-item>
+                      <p>Cost</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Toda, 2016 [<xref ref-type="bibr" rid="ref52">52</xref>]</td>
+                <td>Clustered RCT (intervention n=32 [88 cases], control n=32 [21 cases])</td>
+                <td>SMS only</td>
+                <td>Preventive health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Human resources issues</p>
+                    </list-item>
+                    <list-item>
+                      <p>Technology gap</p>
+                    </list-item>
+                    <list-item>
+                      <p>Training</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Flax, 2017 [<xref ref-type="bibr" rid="ref29">29</xref>]</td>
+                <td>Cluster RCT and interviews (n=195)</td>
+                <td>SMS only</td>
+                <td>Maternal health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Infrastructure</p>
+                    </list-item>
+                    <list-item>
+                      <p>Psychosocial stressors</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Ngabo, 2012 [<xref ref-type="bibr" rid="ref30">30</xref>]</td>
+                <td>Pilot study</td>
+                <td>SMS only</td>
+                <td>Maternal health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Infrastructure</p>
+                    </list-item>
+                    <list-item>
+                      <p>Equipment</p>
+                    </list-item>
+                    <list-item>
+                      <p>Cost</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Jia, 2015 [<xref ref-type="bibr" rid="ref53">53</xref>]</td>
+                <td>Longitudinal data analysis of monthly electronic health record suspect and mortality cases for both the traditional sentinel program and mobile phone reporting (n=178)</td>
+                <td>SMS with or without phone calls and voice mail</td>
+                <td>Preventive health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Training</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Leon, 2015 [<xref ref-type="bibr" rid="ref40">40</xref>]</td>
+                <td>RCT (n=22 studied, n=15 interviewed)</td>
+                <td>SMS only</td>
+                <td>Chronic disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Technology gap</p>
+                    </list-item>
+                    <list-item>
+                      <p>Infrastructure</p>
+                    </list-item>
+                    <list-item>
+                      <p>Psychosocial stressors</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Hao, 2015 [<xref ref-type="bibr" rid="ref41">41</xref>]</td>
+                <td>Interviews (n=11)</td>
+                <td>SMS only</td>
+                <td>Infectious disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Time or work conflict</p>
+                    </list-item>
+                    <list-item>
+                      <p>Equipment</p>
+                    </list-item>
+                    <list-item>
+                      <p>Policy</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Lund, 2014 [<xref ref-type="bibr" rid="ref31">31</xref>]</td>
+                <td>Open-label, pragmatic-cluster RCT, 2550 pregnant women (intervention n=1311, control n=1239)</td>
+                <td>SMS only</td>
+                <td>Maternal health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Equipment</p>
+                    </list-item>
+                    <list-item>
+                      <p>Literacy</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Tuijn, 2011 [<xref ref-type="bibr" rid="ref54">54</xref>]</td>
+                <td>Feasibility study attaching a cell phone to a microscope</td>
+                <td>Multimedia messages for diagnosis</td>
+                <td>Preventive health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Infrastructure</p>
+                    </list-item>
+                    <list-item>
+                      <p>Equipment</p>
+                    </list-item>
+                    <list-item>
+                      <p>Training</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Linnemayr, 2017 [<xref ref-type="bibr" rid="ref42">42</xref>]</td>
+                <td>True experiment (n=332)</td>
+                <td>SMS only</td>
+                <td>Infectious disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Technology gap</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Steury, 2016 [<xref ref-type="bibr" rid="ref43">43</xref>]</td>
+                <td>RCT (n=96)</td>
+                <td>SMS only</td>
+                <td>Chronic disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Efficacy</p>
+                    </list-item>
+                    <list-item>
+                      <p>Cost</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa</td>
+              </tr>
+              <tr valign="top">
+                <td>Ippoliti, 20107 [<xref ref-type="bibr" rid="ref32">32</xref>]</td>
+                <td>RCT (n=17)</td>
+                <td>SMS with or without phone calls and voice mail</td>
+                <td>Maternal health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Infrastructure</p>
+                    </list-item>
+                    <list-item>
+                      <p>Literacy</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Africa and South America</td>
+              </tr>
+              <tr valign="top">
+                <td>Uddin, 2017 [<xref ref-type="bibr" rid="ref33">33</xref>]</td>
+                <td>Stratified 2-stage random-cluster sampling technique to select participants (n=5280)</td>
+                <td>SMS, smartphone app, and cell phone calls</td>
+                <td>Maternal health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Technology gap</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Asia</td>
+              </tr>
+              <tr valign="top">
+                <td>Balakrishnan, 2016 [<xref ref-type="bibr" rid="ref34">34</xref>]</td>
+                <td>Feasibility study (n=512)</td>
+                <td>Smartphone app</td>
+                <td>Maternal health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Cost</p>
+                    </list-item>
+                    <list-item>
+                      <p>Training</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Asia</td>
+              </tr>
+              <tr valign="top">
+                <td>Fang, 2018 [<xref ref-type="bibr" rid="ref44">44</xref>]</td>
+                <td>RCT (n=247)</td>
+                <td>SMS with or without phone calls and voice mail</td>
+                <td>Chronic disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Technology gap</p>
+                    </list-item>
+                    <list-item>
+                      <p>Equipment</p>
+                    </list-item>
+                    <list-item>
+                      <p>Psychosocial stressors</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Asia</td>
+              </tr>
+              <tr valign="top">
+                <td>Zhou, 2016 [<xref ref-type="bibr" rid="ref45">45</xref>]</td>
+                <td>RCT and the intervention period lasted for 6 months and used baseline and follow-up surveys (n=351 villages, n=1393 children)</td>
+                <td>SMS only</td>
+                <td>Chronic disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Policy</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Asia</td>
+              </tr>
+              <tr valign="top">
+                <td>Fang, 2016 [<xref ref-type="bibr" rid="ref46">46</xref>]</td>
+                <td>Random sampling method  <break/>  
+            RCT (3 groups: SMS [n=95] SMS + Micro Letter app [n=92], and phone [n=93])</td>
+                <td>SMS only</td>
+                <td>Chronic disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Technology gap</p>
+                    </list-item>
+                    <list-item>
+                      <p>Infrastructure</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Asia</td>
+              </tr>
+              <tr valign="top">
+                <td>Kumboyono, 2017 [<xref ref-type="bibr" rid="ref47">47</xref>]</td>
+                <td>No RCT, posttest-only control group design (n=90)</td>
+                <td>SMS only</td>
+                <td>Infectious disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Psychosocial stressors</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Asia</td>
+              </tr>
+              <tr valign="top">
+                <td>Kazi, 2013 [<xref ref-type="bibr" rid="ref48">48</xref>]</td>
+                <td>No RCT, systematic random sampling (n=28)</td>
+                <td>SMS only</td>
+                <td>Infectious disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Human resources issues</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Asia</td>
+              </tr>
+              <tr valign="top">
+                <td>Mohan, 2017 [<xref ref-type="bibr" rid="ref49">49</xref>]</td>
+                <td>Cross-sectional study (n=800)</td>
+                <td>SMS only</td>
+                <td>Chronic disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Language barrier</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Asia</td>
+              </tr>
+              <tr valign="top">
+                <td>Lin, 2017 [<xref ref-type="bibr" rid="ref35">35</xref>]</td>
+                <td>True experiment (n=757)</td>
+                <td>SMS only</td>
+                <td>Maternal health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Training</p>
+                    </list-item>
+                    <list-item>
+                      <p>Policy</p>
+                    </list-item>
+                    <list-item>
+                      <p>Exposure of program</p>
+                    </list-item>
+                    <list-item>
+                      <p>Time or work conflict</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Asia</td>
+              </tr>
+              <tr valign="top">
+                <td>Wu, 2014 [<xref ref-type="bibr" rid="ref55">55</xref>]</td>
+                <td>Prospective true experiment (intervention n=97, control n=128)</td>
+                <td>Smartphone app</td>
+                <td>Preventive health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>N/A<sup>c</sup></p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>Asia</td>
+              </tr>
+              <tr valign="top">
+                <td>Beratarrechea, 2015 [<xref ref-type="bibr" rid="ref22">22</xref>]</td>
+                <td>Interviews (n=43)</td>
+                <td>SMS with or without phone calls and voice mail</td>
+                <td>Preventive health</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Infrastructure</p>
+                    </list-item>
+                    <list-item>
+                      <p>Technology gap</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>South America</td>
+              </tr>
+              <tr valign="top">
+                <td>Rico, 2017 [<xref ref-type="bibr" rid="ref50">50</xref>]</td>
+                <td>Interviews (n=14)</td>
+                <td>SMS only</td>
+                <td>Chronic disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Literacy</p>
+                    </list-item>
+                    <list-item>
+                      <p>Technology gap</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>South America</td>
+              </tr>
+              <tr valign="top">
+                <td>Piette, 2012 [<xref ref-type="bibr" rid="ref51">51</xref>]</td>
+                <td>RCT (n=200)</td>
+                <td>SMS only</td>
+                <td>Chronic disease</td>
+                <td>
+                  <list list-type="bullet">
+                    <list-item>
+                      <p>Cost</p>
+                    </list-item>
+                    <list-item>
+                      <p>Equipment</p>
+                    </list-item>
+                    <list-item>
+                      <p>Infrastructure</p>
+                    </list-item>
+                    <list-item>
+                      <p>Policy</p>
+                    </list-item>
+                  </list>
+                </td>
+                <td>South America</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="table1fn1">
+              <p><sup>a</sup>RCT: randomized controlled trial.</p>
+            </fn>
+            <fn id="table1fn2">
+              <p><sup>b</sup>SMS: short message service.</p>
+            </fn>
+            <fn id="table1fn3">
+              <p><sup>c</sup>N/A: not available.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <sec>
+        <title>Principal Findings</title>
+        <p>This review identified the common barriers faced by developing countries in the adoption of mHealth. mHealth is widely used in developing countries as a tool to improve the health outcomes of highly vulnerable communities and individuals. Based on the evidence found in this review, mHealth is an effective method to support health care services. mHealth has been used in many developing countries in regions such as Africa, Asia, and Latin America. These countries constantly battle infectious diseases, chronic diseases, perinatal complications, acute diseases, birth defects, and many more. This review revealed important barriers that must be understood before implementing mHealth initiatives. Considering and assessing these barriers prior to the design phase of an mHealth intervention will have a positive impact on the health outcomes of populations and individuals.</p>
+        <p>As noted above, mHealth can provide a great opportunity to solve health care issues faced by developing countries. However, there are various challenges and barriers to be considered prior to implementation.</p>
+        <sec>
+          <title>Health Outcomes</title>
+          <p>Based on the findings of this review, the 2 main health outcomes affected by an mHealth intervention were infectious diseases and maternal health. In developing countries, the burden of infectious diseases is prevalent due to poverty, leading to “poor nutrition, indoor air pollution and lack of access to proper sanitation, and lack of health education” [<xref ref-type="bibr" rid="ref56">56</xref>]. According to the World Health Organization, most illnesses are avoidable and treatable. It is estimated that diseases account for up to 45% of the burden in poor countries due to poverty; HIV, tuberculosis, and malaria account for 18% [<xref ref-type="bibr" rid="ref56">56</xref>]. The second most common health outcome affected by an mHealth intervention was maternal health. Developing countries account for 99% of all maternal deaths compared with developed countries [<xref ref-type="bibr" rid="ref53">53</xref>]. This is the biggest health gap in the world [<xref ref-type="bibr" rid="ref53">53</xref>]. In remote locations, poor women are more prone to receive inadequate care, specifically in the areas lacking skilled health care workers [<xref ref-type="bibr" rid="ref27">27</xref>].</p>
+          <p>The majority of the reviewed articles used SMS as an mHealth intervention to improve infectious disease, health outcomes, and patient treatment adherence. In developing countries, infectious diseases are prevalent due to the lack of preventive care. mHealth interventions in developing countries were considered effective in improving antenatal care, vaccination, and preventive treatment for chronic and infectious diseases [<xref ref-type="bibr" rid="ref55">55</xref>]. SMS was also effective for maternal health, prenatal care, infant care, HIV/AIDS prevention, treatment adherence, cardiovascular disease care, diabetes care, health education, tuberculosis prevention and care, anemia care, immunization, and disease awareness [<xref ref-type="bibr" rid="ref32">32</xref>,<xref ref-type="bibr" rid="ref49">49</xref>]. SMS directly increased disease awareness by providing health tips and reinforcing reminder systems. Moreover, SMS provided emotional support to patients, promoted knowledge about health, and influenced attitude change toward greater self-responsibility [<xref ref-type="bibr" rid="ref36">36</xref>].</p>
+        </sec>
+        <sec>
+          <title>Mobile Health Tool Used</title>
+          <p>SMS was the most commonly used mHealth tool due to the number of mobile phones in use. An estimated 4.5 billion people are expected to have mobile phones worldwide by 2020 [<xref ref-type="bibr" rid="ref33">33</xref>]. Compared with other methods of communication, text messaging has an advantage due to its low cost and high reliability [<xref ref-type="bibr" rid="ref33">33</xref>]. Researchers in the field state that educational mHealth training programs are effective in raising awareness by offering an efficient and cost-effective way to achieve the success of mHealth implementation [<xref ref-type="bibr" rid="ref42">42</xref>]. A health education approach via mobile phones can be used to manage diseases, aid medical testing, and improve treatments. Specifically, text messaging can be used for interventions and health education, because it is particularly popular in developing countries [<xref ref-type="bibr" rid="ref42">42</xref>]. Through simple text messaging, patients have reported that they felt more confident in their treatment [<xref ref-type="bibr" rid="ref49">49</xref>]. SMS has the potential to make patients feel supported, encouraged, and aware, thus helping them take better care of themselves and continue treatment [<xref ref-type="bibr" rid="ref28">28</xref>]. SMS reminders also improve appointment attendance and SMS text messaging helps health care providers prescribe medicine on a timely basis, consequently improving patient care [<xref ref-type="bibr" rid="ref32">32</xref>,<xref ref-type="bibr" rid="ref39">39</xref>].</p>
+          <p>SMS is perceived as a tool that can boost the rate of adherence to medical treatment and has the potential to help in the prevention of diseases. Health information transmitted through text messages can also effectively be used to manage the treatment of infectious diseases such as tuberculosis [<xref ref-type="bibr" rid="ref45">45</xref>]. The main mechanism is the use of text messages to remind patients about appointments and taking medications, to deliver motivational messages and health education or health promotion messages. Another approach is the use of mobile phones by health workers to help support services in diagnosing women and children in remote areas and identifying patients at risk who need to be referred. Throughout the literature review, SMS was often mentioned in combination with phone calls, voice messages, smartphone apps, and multimedia messages. However, the literature also provided examples of participants who did not know how to use mobile phones or similar technology efficiently. In other words, they did not know how to work a phone or were unable to read text messages. This limited knowledge may be attributed to the amount of exposure individuals in developing countries have to technology. Therefore, there was a correlation between frequency of phone usage and knowledge of this technology. Phone calls as an mHealth intervention can also help improve health outcomes while at the same time offering participants a simpler method than SMS. Mobile phone apps were proven to be an efficient tool to assist people in achieving early screening for diagnosis and treatment purposes. Moreover, apps have been shown to prevent health complications, thus helping improve preventive medicine [<xref ref-type="bibr" rid="ref50">50</xref>].</p>
+        </sec>
+        <sec>
+          <title>World Region</title>
+          <p>Africa was the most frequent study setting in the articles we analyzed. This review suggested that this region has been extensively participating in mHealth projects.</p>
+          <p>The 3 most prevalent barrier categories were lack of infrastructure, lack of equipment, and technology gap. Developing countries should consider investing in their infrastructure and encouraging partnerships with equipment providers to help their populations afford phones and learn how to use them. It is vital for developing countries to adapt to new emerging technologies in an effort to reduce the risk of being left behind in the great technological advancements in health.</p>
+        </sec>
+      </sec>
+      <sec>
+        <title>Strengths and Limitations</title>
+        <p>This review had several limitations. First, selection bias tended to be prevalent in many research studies. To help address this problem, we held consensus meetings once per week to discuss the findings of the research articles. However, our main controls for selection bias were (1) identifying the research objective, (2) defining the key terms used, and (3) having more than one reviewer examine each article. We conducted all consensus meetings either through Skype or in person. These meetings offered great value to our research because they reduced personal bias when eliminating the articles from the literature matrix. We gathered feedback, opinions, and knowledge throughout the process. Another selection bias was the selection of only free full-text articles. We eliminated a few articles in this step. Including those articles in the review most likely would not have changed the outcome of our review, but it might have identified additional barriers.</p>
+        <p>Second, we examined only 10 years’ worth of articles when abstracting the data. However, this may or may not be a limitation, as the technology used in mHealth may not have existed earlier. A third possible limitation is publication bias for the 10 years considered in this review.</p>
+        <p>This review adds to the body of knowledge on the significant barriers mHealth confronts in developing countries. This review was constructed in accordance with PRISMA guidelines. We limited our review to 2 well-known research databases, CINAHL and PubMed. As a result, we expect this review will have a high external and internal validity.</p>
+      </sec>
+      <sec>
+        <title>Recommendations and Suggestions for Further Research</title>
+        <p>To overcome these barriers, the published literature suggested some important solutions. Strengthening health care systems through the use of mHealth requires strong governance, as well as the commitment of the private sector [<xref ref-type="bibr" rid="ref35">35</xref>,<xref ref-type="bibr" rid="ref48">48</xref>]. More investment in phones and rigorous training on these devices is also required to improve their acceptability in developing countries [<xref ref-type="bibr" rid="ref47">47</xref>]. It is also important to consider the characteristics of the population, such as socioeconomic background, to gain a better perspective of the community [<xref ref-type="bibr" rid="ref29">29</xref>]. When phone ownership is lacking, a microcredit program, in which several people can obtain a loan to purchase a group phone, may be feasible, and consequently the group would rely on other family members or the community to improve their health [<xref ref-type="bibr" rid="ref37">37</xref>]. The successful development of interventions using the capability of mHealth technologies lies within the criticality of mHealth research. It entails important characteristics, such as collaboration throughout all phases of the project [<xref ref-type="bibr" rid="ref43">43</xref>].</p>
+        <p>It is important to adapt and redesign emerging interventions as the technology advances. The future of mHealth in both developed and developing countries is expected to be prosperous with new innovations arising exponentially throughout the health care domain. It is important to assess the disparities by country in order to improve their respective health care sectors. Community needs could be addressed and improved through the use of available technology by country. However, to drastically make a change and improve the use of mHealth in developing countries, policy reform at all levels is needed.</p>
+        <p>Project leader support through policy reform could compensate for the barriers faced in developing countries. Therefore, there is a need for future research on how governments can help their countries reach their goals to improve and increase the acceptance of mHealth as a means to improve health care and, ultimately, improve the health of their communities. In addition, there is a need for future implementation of mHealth technologies such as text messaging to improve chronic diseases, such as tuberculosis, HIV, hypertension, cardiovascular disease, colorectal cancer, and pneumonia, in remote and resource-limited settings to overcome the challenges a community faces. Implementation of mHealth initiatives requires rigorous training of health care workers, as well as of the designated population who will be participants in studies, to understand and use the technology correctly [<xref ref-type="bibr" rid="ref39">39</xref>].</p>
+        <p>Training on the use of devices, such as cell phones and mobile apps, and on sharing and receiving text messages will not only improve the performance but also increase the acceptability of mHealth within the community [<xref ref-type="bibr" rid="ref39">39</xref>,<xref ref-type="bibr" rid="ref46">46</xref>]. Special attention needs to be paid to the illiterate when using SMS due to the inability of participants to read and comprehend these messages [<xref ref-type="bibr" rid="ref55">55</xref>]. Lastly, there is a need to design the health system based on approaches to control the timing of text messaging, mobile network fluctuations, and mobile phone turnovers to improve treatment adherence and follow-up visits in cases of chronic diseases, infectious diseases, maternal care, and birth defects [<xref ref-type="bibr" rid="ref32">32</xref>,<xref ref-type="bibr" rid="ref48">48</xref>].</p>
+      </sec>
+      <sec>
+        <title>Conclusion</title>
+        <p>The published literature demonstrates the barriers faced by developing countries in the use of mHealth to improve health outcomes. This systematic review shed light on the most prominent health outcomes that can be improved using mHealth technology interventions in developing countries. SMS technology is readily available at low cost in developing countries and can be easily adopted to interventions that improve the health outcomes already identified. Additionally, the barriers identified will provide the leaders of future intervention projects a solid foundation for the design of those interventions, thus increasing the chances of long-term success and sustainability. We suggest that, to overcome the top 3 barriers, project leaders who wish to implement mHealth interventions must establish partnerships with local governments and nongovernmental organizations to secure funding, leadership, and the required infrastructure. This research identified the barriers and the frequency of those barriers by region. It also identified the most used type of mHealth tool, as well as the health outcomes affected by the tool used. This literature review highlighted the need for policy reform in developing countries to improve health care and, ultimately, improve the health of their communities.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <supplementary-material id="app1">
+        <label>Multimedia Appendix 1</label>
+        <p>Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) checklist.</p>
+        <media xlink:href="jmir_v21i10e13263_app1.pdf" xlink:title="PDF File  (Adobe PDF File), 67 KB"/>
+      </supplementary-material>
+      <supplementary-material id="app2">
+        <label>Multimedia Appendix 2</label>
+        <p>Key terms used in the search string.</p>
+        <media xlink:href="jmir_v21i10e13263_app2.pdf" xlink:title="PDF File  (Adobe PDF File), 22 KB"/>
+      </supplementary-material>
+    </app-group>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list>
+        <def-item>
+          <term id="abb1">MeSH</term>
+          <def>
+            <p>Medical Subject Headings</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="abb2">mHealth</term>
+          <def>
+            <p>mobile health</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="abb3">PRISMA</term>
+          <def>
+            <p>Preferred Reporting Items for Systematic Reviews and Meta-Analyses</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="abb4">SMS</term>
+          <def>
+            <p>short message service</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+    <ack>
+      <p>The authors received no financial support for the research, authorship, or publication of this paper.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="conflict">
+        <p>None declared.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="ref1">
+        <label>1</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pillay</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Motsoaledi</surname>
+              <given-names>PA</given-names>
+            </name>
+          </person-group>
+          <article-title>Digital health in South Africa: innovating to improve health</article-title>
+          <source>BMJ Glob Health</source>
+          <year>2018</year>
+          <volume>3</volume>
+          <issue>Suppl 2</issue>
+          <fpage>e000722</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://europepmc.org/abstract/MED/29713513"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1136/bmjgh-2018-000722</pub-id>
+          <pub-id pub-id-type="medline">29713513</pub-id>
+          <pub-id pub-id-type="pii">bmjgh-2018-000722</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5922497</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref2">
+        <label>2</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Seebregts</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fogwill</surname>
+              <given-names>T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tanna</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barron</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Benjamin</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>MomConnect: an exemplar implementation of the health normative standards framework in South Africa</article-title>
+          <source>South Afr Health Rev</source>
+          <year>2016</year>
+          <month>01</month>
+          <day>01</day>
+          <volume>2016</volume>
+          <issue>1</issue>
+          <fpage>125</fpage>
+          <lpage>135</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://hdl.handle.net/10520/EJC189313"/>
+          </comment>
+        </nlm-citation>
+      </ref>
+      <ref id="ref3">
+        <label>3</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>McBride</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>LT</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wiljer</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vu</surname>
+              <given-names>NC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>CK</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O'Neil</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of a maternal, newborn and child mHealth intervention in Thai Nguyen Province, Vietnam: protocol for the mMom Project</article-title>
+          <source>JMIR Res Protoc</source>
+          <year>2018</year>
+          <month>01</month>
+          <day>11</day>
+          <volume>7</volume>
+          <issue>1</issue>
+          <fpage>e6</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://www.researchprotocols.org/2018/1/e6/"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.2196/resprot.7912</pub-id>
+          <pub-id pub-id-type="medline">29326095</pub-id>
+          <pub-id pub-id-type="pii">v7i1e6</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5785686</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref4">
+        <label>4</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Odetola</surname>
+              <given-names>TD</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ayamolowo</surname>
+              <given-names>LB</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ayamolowo</surname>
+              <given-names>SJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Childbearing women's perception about the use of mHealth for maternal health information in rural communities, Ile-Ife, Nigeria</article-title>
+          <source>J Int Soc Telemed eHealth</source>
+          <year>2018</year>
+          <month>05</month>
+          <day>08</day>
+          <volume>6</volume>
+          <issue>1</issue>
+          <fpage>9</fpage>
+          <lpage>1</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://journals.ukzn.ac.za/index.php/JISfTeH/article/view/531"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.29086/JISfTeH.6.e9</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref5">
+        <label>5</label>
+        <nlm-citation citation-type="web">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kay</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Takane</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <source>mHealth: new horizons for health through mobile technologies. Global Observatory for eHealth series. Volume 3</source>
+          <year>2011</year>
+          <access-date>2019-08-16</access-date>
+          <publisher-loc>Geneva, Switzerland</publisher-loc>
+          <publisher-name>World Health Organization</publisher-name>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/44607/9789241564250_eng.pdf;jsessionid=FB42680AE27DBD769D572E8EC3ED937C?sequence=1">https://apps.who.int/iris/bitstream/handle/10665/44607/9789241564250_eng.pdf;jsessionid=FB42680AE27DBD769D572E8EC3ED937C?sequence=1</ext-link>
+          </comment>
+        </nlm-citation>
+      </ref>
+      <ref id="ref6">
+        <label>6</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Uddin</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shamsuzzaman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Horng</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Labrique</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vasudevan</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zeller</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chowdhury</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Larson</surname>
+              <given-names>CP</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bishai</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alam</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of mobile phones for improving vaccination coverage among children living in rural hard-to-reach areas and urban streets of Bangladesh</article-title>
+          <source>Vaccine</source>
+          <year>2016</year>
+          <month>01</month>
+          <day>04</day>
+          <volume>34</volume>
+          <issue>2</issue>
+          <fpage>276</fpage>
+          <lpage>283</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://europepmc.org/abstract/MED/26647290"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1016/j.vaccine.2015.11.024</pub-id>
+          <pub-id pub-id-type="medline">26647290</pub-id>
+          <pub-id pub-id-type="pii">S0264-410X(15)01666-7</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4807732</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref7">
+        <label>7</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Domek</surname>
+              <given-names>GJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Contreras-Roldan</surname>
+              <given-names>IL</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Asturias</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bronsert</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bolaños Ventura</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O'Leary</surname>
+              <given-names>ST</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kempe</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bull</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Characteristics of mobile phone access and usage in rural and urban Guatemala: assessing feasibility of text message reminders to increase childhood immunizations</article-title>
+          <source>Mhealth</source>
+          <year>2018</year>
+          <volume>4</volume>
+          <fpage>9</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://doi.org/10.21037/mhealth.2018.03.05"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.21037/mhealth.2018.03.05</pub-id>
+          <pub-id pub-id-type="medline">29780812</pub-id>
+          <pub-id pub-id-type="pii">mh-04-2018.03.05</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5945665</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref8">
+        <label>8</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Luo</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yue</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Medina</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rozelle</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Using daily text messages to improve adherence to infant micronutrient powder (MNP) packets in rural western China: a cluster-randomized controlled trial</article-title>
+          <source>PLoS ONE</source>
+          <year>2018</year>
+          <month>1</month>
+          <day>19</day>
+          <volume>13</volume>
+          <issue>1</issue>
+          <fpage>e0191549</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0191549</pub-id>
+          <pub-id pub-id-type="medline">29352304</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref9">
+        <label>9</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sutcliffe</surname>
+              <given-names>CG</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thuma</surname>
+              <given-names>PE</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Dijk</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sinywimaanzi</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mweetwa</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hamahuwa</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moss</surname>
+              <given-names>WJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of mobile phones and text messaging to decrease the turnaround time for early infant HIV diagnosis and notification in rural Zambia: an observational study</article-title>
+          <source>BMC Pediatr</source>
+          <year>2017</year>
+          <month>03</month>
+          <day>08</day>
+          <volume>17</volume>
+          <issue>1</issue>
+          <fpage>66</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://bmcpediatr.biomedcentral.com/articles/10.1186/s12887-017-0822-z"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/s12887-017-0822-z</pub-id>
+          <pub-id pub-id-type="medline">28270134</pub-id>
+          <pub-id pub-id-type="pii">10.1186/s12887-017-0822-z</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5341427</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref10">
+        <label>10</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Krishnan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferro</surname>
+              <given-names>EG</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Weikum</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vagenas</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lama</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sanchez</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Altice</surname>
+              <given-names>FL</given-names>
+            </name>
+          </person-group>
+          <article-title>Communication technology use and mHealth acceptance among HIV-infected men who have sex with men in Peru: implications for HIV prevention and treatment</article-title>
+          <source>AIDS Care</source>
+          <year>2015</year>
+          <volume>27</volume>
+          <issue>3</issue>
+          <fpage>273</fpage>
+          <lpage>82</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://europepmc.org/abstract/MED/25285464"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1080/09540121.2014.963014</pub-id>
+          <pub-id pub-id-type="medline">25285464</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4305474</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref11">
+        <label>11</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Albino</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tabb</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Requena</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Egoavil</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pineros-Leano</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zunt</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name name-style="western">
+              <surname>García</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Perceptions and acceptability of short message services technology to improve treatment adherence amongst tuberculosis patients in Peru: a Focus Group Study</article-title>
+          <source>PLoS One</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <issue>5</issue>
+          <fpage>e95770</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://dx.plos.org/10.1371/journal.pone.0095770"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0095770</pub-id>
+          <pub-id pub-id-type="medline">24828031</pub-id>
+          <pub-id pub-id-type="pii">PONE-D-13-53447</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4020740</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref12">
+        <label>12</label>
+        <nlm-citation citation-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Snyders</surname>
+              <given-names>FJ</given-names>
+            </name>
+          </person-group>
+          <source>Determining the Feasibility of Using Mobile Phones to Strengthen the Information Management of Preventative Health Care in South Africa [master's thesis]</source>
+          <year>2013</year>
+          <publisher-loc>Stellenbosch, South Africa</publisher-loc>
+          <publisher-name>Stellenbosch University</publisher-name>
+        </nlm-citation>
+      </ref>
+      <ref id="ref13">
+        <label>13</label>
+        <nlm-citation citation-type="web">
+          <person-group person-group-type="author">
+            <collab>World Health Organization</collab>
+          </person-group>
+          <source>Maternal mortality</source>
+          <year>2018</year>
+          <access-date>2018-12-01</access-date>
+          <publisher-loc>Geneva, Switzerland</publisher-loc>
+          <publisher-name>WHO</publisher-name>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://www.who.int/en/news-room/fact-sheets/detail/maternal-mortality">https://www.who.int/en/news-room/fact-sheets/detail/maternal-mortality</ext-link>
+            <ext-link ext-link-type="webcite" xlink:href="74Knn43Yc"/>
+          </comment>
+        </nlm-citation>
+      </ref>
+      <ref id="ref14">
+        <label>14</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Déglise</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Suggs</surname>
+              <given-names>LS</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Odermatt</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>SMS for disease control in developing countries: a systematic review of mobile health applications</article-title>
+          <source>J Telemed Telecare</source>
+          <year>2012</year>
+          <volume>18</volume>
+          <issue>5</issue>
+          <fpage>273</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="doi">10.1258/jtt.2012.110810</pub-id>
+          <pub-id pub-id-type="medline">22826375</pub-id>
+          <pub-id pub-id-type="pii">jtt.2012.110810</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref15">
+        <label>15</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chang</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Velthoven</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Han</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Xing</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Du</surname>
+              <given-names>X</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scherpbier</surname>
+              <given-names>RW</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring and evaluating the adherence to a complementary food supplement (Ying Yang Bao) among young children in rural Qinghai, China: a mixed methods evaluation study</article-title>
+          <source>J Glob Health</source>
+          <year>2017</year>
+          <month>06</month>
+          <volume>7</volume>
+          <issue>1</issue>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://europepmc.org/abstract/MED/28702176"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.7189/jogh.07.011101</pub-id>
+          <pub-id pub-id-type="medline">28702176</pub-id>
+          <pub-id pub-id-type="pii">jogh-07-011101</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5502707</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref16">
+        <label>16</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Farach</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Faba</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Julian</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mejía</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cabieses</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>D'Agostino</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cortinois</surname>
+              <given-names>AA</given-names>
+            </name>
+          </person-group>
+          <article-title>Stories from the field: the use of information and communication technologies to address the health needs of underserved populations in Latin America and the Caribbean</article-title>
+          <source>JMIR Public Health Surveill</source>
+          <year>2015</year>
+          <volume>1</volume>
+          <issue>1</issue>
+          <fpage>e1</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://publichealth.jmir.org/2015/1/e1/"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.2196/publichealth.4108</pub-id>
+          <pub-id pub-id-type="medline">27227124</pub-id>
+          <pub-id pub-id-type="pii">v1i1e1</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4869241</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref17">
+        <label>17</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Oliveira-Ciabati</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>CS</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Franzon</surname>
+              <given-names>ACA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alves</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zaratini</surname>
+              <given-names>FS</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Braga</surname>
+              <given-names>GC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sanchez</surname>
+              <given-names>JAC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonifácio</surname>
+              <given-names>LP</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andrade</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernandes</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Quintana</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fabio</surname>
+              <given-names>SV</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pileggi</surname>
+              <given-names>VN</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Souza</surname>
+              <given-names>JP</given-names>
+            </name>
+          </person-group>
+          <article-title>PRENACEL - a mHealth messaging system to complement antenatal care: a cluster randomized trial</article-title>
+          <source>Reprod Health</source>
+          <year>2017</year>
+          <month>11</month>
+          <day>07</day>
+          <volume>14</volume>
+          <issue>1</issue>
+          <fpage>146</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://reproductive-health-journal.biomedcentral.com/articles/10.1186/s12978-017-0407-1"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/s12978-017-0407-1</pub-id>
+          <pub-id pub-id-type="medline">29116028</pub-id>
+          <pub-id pub-id-type="pii">10.1186/s12978-017-0407-1</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5678588</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref18">
+        <label>18</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rajan</surname>
+              <given-names>JV</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moura</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gourley</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kiso</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sizilio</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cortez</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Riley</surname>
+              <given-names>LW</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Veras</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sarkar</surname>
+              <given-names>U</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding the barriers to successful adoption and use of a mobile health information system in a community health center in São Paulo, Brazil: a cohort study</article-title>
+          <source>BMC Med Inform Decis Mak</source>
+          <year>2016</year>
+          <month>11</month>
+          <day>17</day>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>146</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-016-0385-1"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/s12911-016-0385-1</pub-id>
+          <pub-id pub-id-type="medline">27855685</pub-id>
+          <pub-id pub-id-type="pii">10.1186/s12911-016-0385-1</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5114819</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref19">
+        <label>19</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>CS</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonifácio</surname>
+              <given-names>LP</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Oliveira Ciabati</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Franzon</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zaratini</surname>
+              <given-names>FS</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sanchez</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andrade</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Souza</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>PRENACEL: development and evaluation of an m-health strategy to improve prenatal care in Brazil</article-title>
+          <source>Health</source>
+          <year>2016</year>
+          <month>08</month>
+          <day>01</day>
+          <volume>15</volume>
+          <fpage>16</fpage>
+          <pub-id pub-id-type="doi">10.5281/zenodo.1126866</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref20">
+        <label>20</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>McCarthy</surname>
+              <given-names>OL</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wazwaz</surname>
+              <given-names>O</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Osorio Calderon</surname>
+              <given-names>V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jado</surname>
+              <given-names>I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saibov</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stavridis</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>López Gallardo</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tokhirov</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Adada</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huaynoca</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Makleff</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vandewiele</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Standaert</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Free</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of an intervention delivered by mobile phone aimed at decreasing unintended pregnancy among young people in three lower middle income countries</article-title>
+          <source>BMC Public Health</source>
+          <year>2018</year>
+          <month>05</month>
+          <day>02</day>
+          <volume>18</volume>
+          <issue>1</issue>
+          <fpage>576</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-018-5477-7"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/s12889-018-5477-7</pub-id>
+          <pub-id pub-id-type="medline">29716571</pub-id>
+          <pub-id pub-id-type="pii">10.1186/s12889-018-5477-7</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5930955</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref21">
+        <label>21</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Diez-Canseco</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Toyama</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ipince</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Perez-Leon</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cavero</surname>
+              <given-names>V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Araya</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miranda</surname>
+              <given-names>JJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Integration of a technology-based mental health screening program into routine practices of primary health care services in Peru (the Allillanchu Project): development and implementation</article-title>
+          <source>J Med Internet Res</source>
+          <year>2018</year>
+          <month>03</month>
+          <day>15</day>
+          <volume>20</volume>
+          <issue>3</issue>
+          <fpage>e100</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://www.jmir.org/2018/3/e100/"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.2196/jmir.9208</pub-id>
+          <pub-id pub-id-type="medline">29588272</pub-id>
+          <pub-id pub-id-type="pii">v20i3e100</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5893885</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref22">
+        <label>22</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Beratarrechea</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Diez-Canseco</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernández</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kanter</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Letona</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martinez</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miranda</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ramirez-Zea</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rubinstein</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>[Acceptability of a mobile health based intervention to modify lifestyles in prehypertensive patients in Argentina, Guatemala and Peru: a pilot study]</article-title>
+          <source>Rev Peru Med Exp Salud Publica</source>
+          <year>2015</year>
+          <volume>32</volume>
+          <issue>2</issue>
+          <fpage>221</fpage>
+          <lpage>9</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://www.scielosp.org/scielo.php?script=sci_arttext&amp;pid=S1726-46342015000200002&amp;lng=en&amp;nrm=iso&amp;tlng=en"/>
+          </comment>
+          <pub-id pub-id-type="medline">26338378</pub-id>
+          <pub-id pub-id-type="pii">S1726-46342015000200002</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref23">
+        <label>23</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Moher</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Liberati</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tetzlaff</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Altman</surname>
+              <given-names>DG</given-names>
+            </name>
+            <collab>PRISMA Group</collab>
+          </person-group>
+          <article-title>Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement</article-title>
+          <source>Int J Surg</source>
+          <year>2010</year>
+          <volume>8</volume>
+          <issue>5</issue>
+          <fpage>336</fpage>
+          <lpage>41</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S1743-9191(10)00040-3"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1016/j.ijsu.2010.02.007</pub-id>
+          <pub-id pub-id-type="medline">20171303</pub-id>
+          <pub-id pub-id-type="pii">S1743-9191(10)00040-3</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref24">
+        <label>24</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Shea</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grimshaw</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wells</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boers</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andersson</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hamel</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Porter</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tugwell</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moher</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bouter</surname>
+              <given-names>LM</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of AMSTAR: a measurement tool to assess the methodological quality of systematic reviews</article-title>
+          <source>BMC Med Res Methodol</source>
+          <year>2007</year>
+          <month>02</month>
+          <day>15</day>
+          <volume>7</volume>
+          <fpage>10</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-7-10"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/1471-2288-7-10</pub-id>
+          <pub-id pub-id-type="medline">17302989</pub-id>
+          <pub-id pub-id-type="pii">1471-2288-7-10</pub-id>
+          <pub-id pub-id-type="pmcid">PMC1810543</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref25">
+        <label>25</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Light</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Measures of response agreement for qualitative data: Some generalizations and alternatives</article-title>
+          <source>Psychol Bull</source>
+          <year>1971</year>
+          <volume>76</volume>
+          <issue>5</issue>
+          <fpage>365</fpage>
+          <lpage>377</lpage>
+          <pub-id pub-id-type="doi">10.1037/h0031643</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref26">
+        <label>26</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>McHugh</surname>
+              <given-names>ML</given-names>
+            </name>
+          </person-group>
+          <article-title>Interrater reliability: the kappa statistic</article-title>
+          <source>Biochem Med (Zagreb)</source>
+          <year>2012</year>
+          <volume>22</volume>
+          <issue>3</issue>
+          <fpage>276</fpage>
+          <lpage>82</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://www.biochemia-medica.com/2012/22/276"/>
+          </comment>
+          <pub-id pub-id-type="medline">23092060</pub-id>
+          <pub-id pub-id-type="pmcid">PMC3900052</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref27">
+        <label>27</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Medhanyie</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Little</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yebyo</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Spigt</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tadesse</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blanco</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dinant</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Health workers' experiences, barriers, preferences and motivating factors in using mHealth forms in Ethiopia</article-title>
+          <source>Hum Resour Health</source>
+          <year>2015</year>
+          <month>01</month>
+          <day>15</day>
+          <volume>13</volume>
+          <fpage>2</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://human-resources-health.biomedcentral.com/articles/10.1186/1478-4491-13-2"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/1478-4491-13-2</pub-id>
+          <pub-id pub-id-type="medline">25588973</pub-id>
+          <pub-id pub-id-type="pii">1478-4491-13-2</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4325949</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref28">
+        <label>28</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rokicki</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cohen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Salomon</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fink</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of a text-messaging program on adolescent reproductive health: a cluster-randomized trial in Ghana</article-title>
+          <source>Am J Public Health</source>
+          <year>2017</year>
+          <month>02</month>
+          <volume>107</volume>
+          <issue>2</issue>
+          <fpage>298</fpage>
+          <lpage>305</lpage>
+          <pub-id pub-id-type="doi">10.2105/AJPH.2016.303562</pub-id>
+          <pub-id pub-id-type="medline">27997236</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5227930</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref29">
+        <label>29</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Flax</surname>
+              <given-names>VL</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ibrahim</surname>
+              <given-names>AU</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Negerie</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yakubu</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leatherman</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bentley</surname>
+              <given-names>ME</given-names>
+            </name>
+          </person-group>
+          <article-title>Group cell phones are feasible and acceptable for promoting optimal breastfeeding practices in a women's microcredit program in Nigeria</article-title>
+          <source>Matern Child Nutr</source>
+          <year>2017</year>
+          <month>01</month>
+          <volume>13</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://europepmc.org/abstract/MED/26990786"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1111/mcn.12261</pub-id>
+          <pub-id pub-id-type="medline">26990786</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5027179</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref30">
+        <label>30</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ngabo</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguimfack</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nwaigwe</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mugeni</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Muhoza</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kalach</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gakuba</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Karema</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Binagwaho</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Designing and implementing an innovative SMS-based alert system (RapidSMS-MCH) to monitor pregnancy and reduce maternal and child deaths in Rwanda</article-title>
+          <source>Pan Afr Med J</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>31</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://www.panafrican-med-journal.com/content/article/13/31/full/"/>
+          </comment>
+          <pub-id pub-id-type="medline">23330022</pub-id>
+          <pub-id pub-id-type="pmcid">PMC3542808</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref31">
+        <label>31</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lund</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nielsen</surname>
+              <given-names>BB</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hemed</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boas</surname>
+              <given-names>IM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Said</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Said</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Makungu</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rasch</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title>Mobile phones improve antenatal care attendance in Zanzibar: a cluster randomized controlled trial</article-title>
+          <source>BMC Pregnancy Childbirth</source>
+          <year>2014</year>
+          <month>01</month>
+          <day>17</day>
+          <volume>14</volume>
+          <fpage>29</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/1471-2393-14-29"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/1471-2393-14-29</pub-id>
+          <pub-id pub-id-type="medline">24438517</pub-id>
+          <pub-id pub-id-type="pii">1471-2393-14-29</pub-id>
+          <pub-id pub-id-type="pmcid">PMC3898378</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref32">
+        <label>32</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ippoliti</surname>
+              <given-names>NB</given-names>
+            </name>
+            <name name-style="western">
+              <surname>L'Engle</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Meet us on the phone: mobile phone programs for adolescent sexual and reproductive health in low-to-middle income countries</article-title>
+          <source>Reprod Health</source>
+          <year>2017</year>
+          <month>01</month>
+          <day>17</day>
+          <volume>14</volume>
+          <issue>1</issue>
+          <fpage>11</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://reproductive-health-journal.biomedcentral.com/articles/10.1186/s12978-016-0276-z"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/s12978-016-0276-z</pub-id>
+          <pub-id pub-id-type="medline">28095855</pub-id>
+          <pub-id pub-id-type="pii">10.1186/s12978-016-0276-z</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5240300</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref33">
+        <label>33</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Uddin</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Biswas</surname>
+              <given-names>T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Adhikary</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ali</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alam</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palit</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Uddin</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Uddin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Khatun</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bhuiya</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of mobile phone-based technology to improve health, population and nutrition services in Rural Bangladesh: a study protocol</article-title>
+          <source>BMC Med Inform Decis Mak</source>
+          <year>2017</year>
+          <month>07</month>
+          <day>06</day>
+          <volume>17</volume>
+          <issue>1</issue>
+          <fpage>101</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-017-0502-9"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/s12911-017-0502-9</pub-id>
+          <pub-id pub-id-type="medline">28683742</pub-id>
+          <pub-id pub-id-type="pii">10.1186/s12911-017-0502-9</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5500967</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref34">
+        <label>34</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Balakrishnan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gopichandran</surname>
+              <given-names>V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chaturvedi</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chatterjee</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mahapatra</surname>
+              <given-names>T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chaudhuri</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Continuum of care services for maternal and child health using mobile technology–a health system strengthening strategy in low and middle income countries</article-title>
+          <source>BMC Med Inform Decis Mak</source>
+          <year>2016</year>
+          <month>07</month>
+          <day>07</day>
+          <volume>16</volume>
+          <fpage>84</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-016-0326-z"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/s12911-016-0326-z</pub-id>
+          <pub-id pub-id-type="medline">27387548</pub-id>
+          <pub-id pub-id-type="pii">10.1186/s12911-016-0326-z</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4937606</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref35">
+        <label>35</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lin</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yang</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Qin</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Deng</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hu</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>A village‐based intervention: promoting folic acid use among rural Chinese women</article-title>
+          <source>Nutrients</source>
+          <year>2017</year>
+          <month>02</month>
+          <day>21</day>
+          <volume>9</volume>
+          <issue>2</issue>
+          <fpage>1</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://www.mdpi.com/resolver?pii=nu9020174"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.3390/nu9020174</pub-id>
+          <pub-id pub-id-type="medline">28230798</pub-id>
+          <pub-id pub-id-type="pii">nu9020174</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5331605</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref36">
+        <label>36</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ginsburg</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Delarosa</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brunette</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Levari</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sundt</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Larson</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tawiah Agyemang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Newton</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borriello</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Anderson</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>mPneumonia: development of an innovative mHealth application for diagnosing and treating childhood pneumonia and other childhood illnesses in low-resource settings</article-title>
+          <source>PLoS One</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <issue>10</issue>
+          <fpage>e0139625</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://dx.plos.org/10.1371/journal.pone.0139625"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0139625</pub-id>
+          <pub-id pub-id-type="medline">26474321</pub-id>
+          <pub-id pub-id-type="pii">PONE-D-15-26383</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4608740</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref37">
+        <label>37</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nhavoto</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grönlund</surname>
+              <given-names>Å</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Klein</surname>
+              <given-names>GO</given-names>
+            </name>
+          </person-group>
+          <article-title>Mobile health treatment support intervention for HIV and tuberculosis in Mozambique: Perspectives of patients and healthcare workers</article-title>
+          <source>PLoS One</source>
+          <year>2017</year>
+          <volume>12</volume>
+          <issue>4</issue>
+          <fpage>e0176051</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://dx.plos.org/10.1371/journal.pone.0176051"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0176051</pub-id>
+          <pub-id pub-id-type="medline">28419149</pub-id>
+          <pub-id pub-id-type="pii">PONE-D-16-39057</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5395223</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref38">
+        <label>38</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bediang</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stoll</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Elia</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Abena</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nolna</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chastonay</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Geissbuhler</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>SMS reminders to improve the tuberculosis cure rate in developing countries (TB-SMS Cameroon): a protocol of a randomised control study</article-title>
+          <source>Trials</source>
+          <year>2014</year>
+          <month>01</month>
+          <day>24</day>
+          <volume>15</volume>
+          <fpage>35</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://trialsjournal.biomedcentral.com/articles/10.1186/1745-6215-15-35"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/1745-6215-15-35</pub-id>
+          <pub-id pub-id-type="medline">24460827</pub-id>
+          <pub-id pub-id-type="pii">1745-6215-15-35</pub-id>
+          <pub-id pub-id-type="pmcid">PMC3902069</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref39">
+        <label>39</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bigna</surname>
+              <given-names>JJR</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kouanfack</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Noubiap</surname>
+              <given-names>JJN</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Plottel</surname>
+              <given-names>CS</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koulla-Shiro</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>A randomized blinded controlled trial of mobile phone reminders on the follow-up medical care of HIV-exposed and HIV-infected children in Cameroon: study protocol (MORE CARE)</article-title>
+          <source>Trials</source>
+          <year>2013</year>
+          <month>09</month>
+          <day>25</day>
+          <volume>14</volume>
+          <fpage>313</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://trialsjournal.biomedcentral.com/articles/10.1186/1745-6215-14-313"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/1745-6215-14-313</pub-id>
+          <pub-id pub-id-type="medline">24066735</pub-id>
+          <pub-id pub-id-type="pii">1745-6215-14-313</pub-id>
+          <pub-id pub-id-type="pmcid">PMC3849485</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref40">
+        <label>40</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Leon</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Surender</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bobrow</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Muller</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Farmer</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Improving treatment adherence for blood pressure lowering via mobile phone SMS-messages in South Africa: a qualitative evaluation of the SMS-text Adherence SuppoRt (StAR) trial</article-title>
+          <source>BMC Fam Pract</source>
+          <year>2015</year>
+          <month>07</month>
+          <day>03</day>
+          <volume>16</volume>
+          <fpage>80</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://bmcfampract.biomedcentral.com/articles/10.1186/s12875-015-0289-7"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1186/s12875-015-0289-7</pub-id>
+          <pub-id pub-id-type="medline">26137844</pub-id>
+          <pub-id pub-id-type="pii">10.1186/s12875-015-0289-7</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4490665</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref41">
+        <label>41</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hao</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hsu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Iqbal</surname>
+              <given-names>U</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hlatshwayo</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names>YJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jian</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>LabPush: a pilot study of providing remote clinics with laboratory results via short message service (SMS) in Swaziland, Africa - a qualitative study</article-title>
+          <source>Comput Methods Programs Biomed</source>
+          <year>2015</year>
+          <month>01</month>
+          <volume>118</volume>
+          <issue>1</issue>
+          <fpage>77</fpage>
+          <lpage>83</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmpb.2014.10.005</pub-id>
+          <pub-id pub-id-type="medline">25453385</pub-id>
+          <pub-id pub-id-type="pii">S0169-2607(14)00350-2</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref42">
+        <label>42</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Linnemayr</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Luoto</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kambugu</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thirumurthy</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Haberer</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wagner</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mukasa</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Text messaging for improving antiretroviral therapy adherence: no effects after 1 year in a randomized controlled trial among adolescents and young adults</article-title>
+          <source>Am J Public Health</source>
+          <year>2017</year>
+          <month>12</month>
+          <volume>107</volume>
+          <issue>12</issue>
+          <fpage>1944</fpage>
+          <lpage>1950</lpage>
+          <pub-id pub-id-type="doi">10.2105/AJPH.2017.304089</pub-id>
+          <pub-id pub-id-type="medline">29048966</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5678388</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref43">
+        <label>43</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Steury</surname>
+              <given-names>EE</given-names>
+            </name>
+          </person-group>
+          <article-title>Mobile phone short message service to improve malaria pharmacoadherence in Zambia</article-title>
+          <source>J Nurs Scholarsh</source>
+          <year>2016</year>
+          <month>07</month>
+          <volume>48</volume>
+          <issue>4</issue>
+          <fpage>354</fpage>
+          <lpage>61</lpage>
+          <pub-id pub-id-type="doi">10.1111/jnu.12216</pub-id>
+          <pub-id pub-id-type="medline">27145248</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref44">
+        <label>44</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fang</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Deng</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>Electronic messaging intervention for management of cardiovascular risk factors in type 2 diabetes mellitus: a randomised controlled trial</article-title>
+          <source>J Clin Nurs</source>
+          <year>2018</year>
+          <month>02</month>
+          <volume>27</volume>
+          <issue>3-4</issue>
+          <fpage>612</fpage>
+          <lpage>620</lpage>
+          <pub-id pub-id-type="doi">10.1111/jocn.13962</pub-id>
+          <pub-id pub-id-type="medline">28700102</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref45">
+        <label>45</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zhou</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sun</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Luo</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sylvia</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yue</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Medina</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rozelle</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of text message reminders on caregivers’ adherence to a home fortification program against child anemia in rural western China: a cluster-randomized controlled trial</article-title>
+          <source>Am J Public Health</source>
+          <year>2016</year>
+          <month>07</month>
+          <volume>106</volume>
+          <issue>7</issue>
+          <fpage>1256</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.2105/AJPH.2016.303140</pub-id>
+          <pub-id pub-id-type="medline">27077354</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4984765</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref46">
+        <label>46</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fang</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>Electronic messaging support service programs improve adherence to lipid-lowering therapy among outpatients with coronary artery disease: an exploratory randomised control study</article-title>
+          <source>J Clin Nurs</source>
+          <year>2016</year>
+          <month>03</month>
+          <volume>25</volume>
+          <issue>5-6</issue>
+          <fpage>664</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="doi">10.1111/jocn.12988</pub-id>
+          <pub-id pub-id-type="medline">26522838</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref47">
+        <label>47</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <collab>Kumboyono</collab>
+          </person-group>
+          <article-title>Short message service as an alternative in the drug consumption evaluation of persons with tuberculosis in Malang, Indonesia</article-title>
+          <source>Jpn J Nurs Sci</source>
+          <year>2017</year>
+          <month>04</month>
+          <volume>14</volume>
+          <issue>2</issue>
+          <fpage>112</fpage>
+          <lpage>116</lpage>
+          <pub-id pub-id-type="doi">10.1111/jjns.12140</pub-id>
+          <pub-id pub-id-type="medline">27412502</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref48">
+        <label>48</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kazi</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Murtaza</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Khoja</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zaidi</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ali</surname>
+              <given-names>SA</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring polio supplementary immunization activities using an automated short text messaging system in Karachi, Pakistan</article-title>
+          <source>Bull World Health Organ</source>
+          <year>2014</year>
+          <month>03</month>
+          <day>01</day>
+          <volume>92</volume>
+          <issue>3</issue>
+          <fpage>220</fpage>
+          <lpage>5</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://europepmc.org/abstract/MED/24700982"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.2471/BLT.13.122564</pub-id>
+          <pub-id pub-id-type="medline">24700982</pub-id>
+          <pub-id pub-id-type="pii">BLT.13.122564</pub-id>
+          <pub-id pub-id-type="pmcid">PMC3949591</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref49">
+        <label>49</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mohan</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sharma</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sharma</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kaushal</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Singh</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Takkar</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aslam</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goyal</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wander</surname>
+              <given-names>GS</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of knowledge about healthy heart habits in urban and rural population of Punjab after SMS campaign-a cross-sectional study</article-title>
+          <source>Indian Heart J</source>
+          <year>2017</year>
+          <volume>69</volume>
+          <issue>4</issue>
+          <fpage>480</fpage>
+          <lpage>484</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://linkinghub.elsevier.com/retrieve/pii/S0019-4832(16)31000-8"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1016/j.ihj.2017.05.007</pub-id>
+          <pub-id pub-id-type="medline">28822515</pub-id>
+          <pub-id pub-id-type="pii">S0019-4832(16)31000-8</pub-id>
+          <pub-id pub-id-type="pmcid">PMC5560893</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref50">
+        <label>50</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rico</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dos Santos Machado</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernandes</surname>
+              <given-names>VP</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Madruga</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Noguez</surname>
+              <given-names>PT</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barcelos</surname>
+              <given-names>CRG</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santin</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petrarca</surname>
+              <given-names>CR</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dumith</surname>
+              <given-names>SC</given-names>
+            </name>
+          </person-group>
+          <article-title>Text messaging (SMS) helping cancer care in patients undergoing chemotherapy treatment: a pilot study</article-title>
+          <source>J Med Syst</source>
+          <year>2017</year>
+          <month>10</month>
+          <day>09</day>
+          <volume>41</volume>
+          <issue>11</issue>
+          <fpage>181</fpage>
+          <pub-id pub-id-type="doi">10.1007/s10916-017-0831-3</pub-id>
+          <pub-id pub-id-type="medline">28990135</pub-id>
+          <pub-id pub-id-type="pii">10.1007/s10916-017-0831-3</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref51">
+        <label>51</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Piette</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Datwani</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gaudioso</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Foster</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Westphal</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Perry</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodríguez-Saldaña</surname>
+              <given-names>Joel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mendoza-Avelares</surname>
+              <given-names>MO</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marinec</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Hypertension management using mobile technology and home blood pressure monitoring: results of a randomized trial in two low/middle-income countries</article-title>
+          <source>Telemed J E Health</source>
+          <year>2012</year>
+          <month>10</month>
+          <volume>18</volume>
+          <issue>8</issue>
+          <fpage>613</fpage>
+          <lpage>20</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://europepmc.org/abstract/MED/23061642"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1089/tmj.2011.0271</pub-id>
+          <pub-id pub-id-type="medline">23061642</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4361160</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref52">
+        <label>52</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Toda</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Njeru</surname>
+              <given-names>I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zurovac</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O-Tipo</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kareko</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mwau</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morita</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Effectiveness of a mobile short-message-service–based disease outbreak alert system in Kenya</article-title>
+          <source>Emerg Infect Dis</source>
+          <year>2016</year>
+          <month>04</month>
+          <day>1</day>
+          <volume>22</volume>
+          <issue>4</issue>
+          <fpage>711</fpage>
+          <lpage>5</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="https://dx.doi.org/10.3201/eid2204.151459"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.3201/eid2204.151459</pub-id>
+          <pub-id pub-id-type="medline">26981628</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4806970</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref53">
+        <label>53</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jia</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mohamed</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluating the use of cell phone messaging for community Ebola syndromic surveillance in high risked settings in Southern Sierra Leone</article-title>
+          <source>Afr Health Sci</source>
+          <year>2015</year>
+          <month>09</month>
+          <volume>15</volume>
+          <issue>3</issue>
+          <fpage>797</fpage>
+          <lpage>802</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://europepmc.org/abstract/MED/26957967"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.4314/ahs.v15i3.13</pub-id>
+          <pub-id pub-id-type="medline">26957967</pub-id>
+          <pub-id pub-id-type="pii">jAFHS.v15.i3.pg797</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4765450</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref54">
+        <label>54</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tuijn</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hoefman</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Beijma</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oskam</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chevrollier</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Data and image transfer using mobile phones to strengthen microscopy-based diagnostic services in low and middle income country laboratories</article-title>
+          <source>PLoS One</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <issue>12</issue>
+          <fpage>e28348</fpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://dx.plos.org/10.1371/journal.pone.0028348"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0028348</pub-id>
+          <pub-id pub-id-type="medline">22194829</pub-id>
+          <pub-id pub-id-type="pii">PONE-D-11-08207</pub-id>
+          <pub-id pub-id-type="pmcid">PMC3237433</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref55">
+        <label>55</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names>HC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chang</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lin</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tsai</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chang</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tseng</surname>
+              <given-names>MH</given-names>
+            </name>
+          </person-group>
+          <article-title>Developing screening services for colorectal cancer on Android smartphones</article-title>
+          <source>Telemed J E Health</source>
+          <year>2014</year>
+          <month>08</month>
+          <volume>20</volume>
+          <issue>8</issue>
+          <fpage>687</fpage>
+          <lpage>95</lpage>
+          <comment>
+            <ext-link ext-link-type="uri" xlink:type="simple" xlink:href="http://europepmc.org/abstract/MED/24848873"/>
+          </comment>
+          <pub-id pub-id-type="doi">10.1089/tmj.2013.0288</pub-id>
+          <pub-id pub-id-type="medline">24848873</pub-id>
+          <pub-id pub-id-type="pmcid">PMC4106382</pub-id>
+        </nlm-citation>
+      </ref>
+      <ref id="ref56">
+        <label>56</label>
+        <nlm-citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Luchetti</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Global health and the 10/90 gap</article-title>
+          <source>Br J Med Pract</source>
+          <year>2014</year>
+          <month>12</month>
+          <day>01</day>
+          <volume>7</volume>
+          <issue>4</issue>
+          <fpage>a731</fpage>
+          <comment>
+            <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:type="simple" xlink:href="https://www.bjmp.org/files/2014-7-4/bjmp-2014-7-4-a731.pdf"/>
+          </comment>
+        </nlm-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
