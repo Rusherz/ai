@@ -3,7 +3,7 @@ import json
 
 from anago.utils import load_data_and_labels
 
-x_train, y_train = load_data_and_labels('./data.txt')
+x_train, y_train = load_data_and_labels('./doi.txt')
 x_test, y_test = load_data_and_labels('./data/conll2003/en/ner/test.txt')
 
 print(str(len(x_train)))
@@ -26,4 +26,3 @@ print(entities)
 f = open('./results.json', 'w')
 f.writelines(json.dumps(entities))
 f.close()
-
