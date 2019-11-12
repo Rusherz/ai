@@ -3,12 +3,12 @@ import json
 
 from anago.utils import load_data_and_labels
 
-x_train, y_train = load_data_and_labels('./dois.txt')
+x_train, y_train = load_data_and_labels('./data.txt')
 x_test, y_test = load_data_and_labels('./data/conll2003/en/ner/test.txt')
 
 print(str(len(x_train)))
 
-model = anago.Sequence()
+model = anago.Sequence().load(params_file='./params.h5', preprocessor_file='./pre.h5', weights_file='./weights.h5')
 model.fit(x_train, y_train, epochs=10)
 model.save(params_file='./params.h5', preprocessor_file='./pre.h5', weights_file='./weights.h5')
 

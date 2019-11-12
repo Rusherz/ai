@@ -101,7 +101,7 @@
                         }
                     },
                     "embeddings_regularizer": null,
-                    "input_dim": 37231,
+                    "input_dim": 56011,
                     "input_length": null,
                     "mask_zero": true,
                     "name": "word_embedding",
